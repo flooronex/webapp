@@ -1,0 +1,36 @@
+/**
+ * Site Configuration
+ * Central place for all site-wide configuration values
+ */
+
+export const siteConfig = {
+    name: "Publino",
+    title: "Publino | Next.js Landing Page Template",
+    description:
+        "Modern Next.js landing page template: Responsive, dark mode, SEO optimized, high-performance. Includes premium components.",
+    url: "https://publino-template.vercel.app",
+    author: {
+        name: "Mohammed Djoudir",
+        email: "mohamedjoudir1@gmail.com",
+    },
+    keywords: [
+        "next.js",
+        "landing page",
+        "template",
+        "Publino",
+        "responsive",
+        "modern design",
+        "high-performance",
+    ],
+    social: {
+        twitter: "",
+        github: "",
+        linkedin: "",
+    },
+    links: {
+        docs: "/docs",
+        github: "https://github.com",
+    },
+} as const;
+
+export type SiteConfig = typeof siteConfig;

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/messages/common/en.json"],"sourcesContent":["{\"metadata\":{\"title\":\"Publino | Next.js Landing Page Template\",\"description\":\"Modern Next.js landing page template: Responsive, dark mode, SEO optimized, high-performance. Includes premium components.\"},\"Header\":{\"home\":\"Home\"},\"accessibility\":{\"skipToContent\":\"Skip to main content\"},\"footer\":{\"copyright\":\"© 2025 Publino Templates. All rights reserved.\"},\"buttons\":{\"learnMore\":\"Learn More\",\"getStarted\":\"Get Started\",\"submit\":\"Submit\",\"cancel\":\"Cancel\",\"close\":\"Close\",\"tryItFree\":\"Try it free\",\"contactUs\":\"Contact Us\"},\"errors\":{\"required\":\"This field is required\",\"invalidEmail\":\"Please enter a valid email address\",\"somethingWentWrong\":\"Something went wrong. Please try again.\"},\"navigation\":{\"logo\":\"Publino\",\"links\":{\"features\":\"Features\",\"templates\":\"Templates\",\"pricing\":\"Pricing\",\"faq\":\"FAQ\",\"contact\":\"Contact\"},\"actions\":{\"login\":\"Login\",\"bookCall\":\"Book a call\"},\"mobileMenu\":{\"open\":\"Open menu\",\"close\":\"Close menu\"}},\"languageSwitcher\":{\"label\":\"Language\",\"english\":\"English\",\"arabic\":\"العربية\"}}"],"names":[],"mappings":"AAAA"}},
+    {"offset": {"line": 3, "column": 1039}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

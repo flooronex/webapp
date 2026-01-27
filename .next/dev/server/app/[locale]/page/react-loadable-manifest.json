@@ -1,0 +1,23 @@
+{
+  "[project]/src/components/ScalableEnvironments/components/ChartComponent.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/ScalableEnvironments/components/ChartComponent.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/src_components_ScalableEnvironments_components_ChartComponent_tsx_fe36b452._.js",
+      "static/chunks/src_components_ScalableEnvironments_components_ChartComponent_tsx_cf974a29._.js"
+    ]
+  },
+  "[project]/src/components/ScalableEnvironments/index.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/ScalableEnvironments/index.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/src_components_ScalableEnvironments_index_tsx_15475e61._.js",
+      "static/chunks/src_components_ScalableEnvironments_index_tsx_81efc41b._.js"
+    ]
+  },
+  "[project]/src/components/WorldMap/index.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/WorldMap/index.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/src_components_WorldMap_index_tsx_8bf0dba9._.js",
+      "static/chunks/src_components_WorldMap_index_tsx_81efc41b._.js"
+    ]
+  }
+}

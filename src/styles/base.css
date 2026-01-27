@@ -1,0 +1,186 @@
+/* ==========================================================================
+   Base Styles - Reset & Foundational Styles
+   ========================================================================== */
+
+@layer base {
+
+    /*
+     * Instant theme color transitions during dark/light mode switch.
+     * This class is added to <html> during theme toggle and removed immediately after.
+     * Uses !important to override all Tailwind transition utilities.
+     */
+    html.theme-switching,
+    html.theme-switching *,
+    html.theme-switching *::before,
+    html.theme-switching *::after {
+        transition-duration: 0s !important;
+    }
+
+    /* Box sizing reset */
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Document root */
+    html {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+        overscroll-behavior: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        /* Force overlay scrollbars - makes Chrome/Firefox behave like Safari */
+        scrollbar-gutter: stable;
+    }
+
+    /* Use overlay scrollbars for consistent breakpoint behavior across browsers */
+    @supports (overflow: overlay) {
+        html {
+            overflow-y: overlay !important;
+        }
+    }
+
+    /* Body styles */
+    body {
+        color: var(--foreground);
+        background: var(--background);
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        width: 100vw !important;
+        max-width: 100vw !important;
+        overflow-x: hidden !important;
+        line-height: 1.5;
+        font-family: var(--font-sans);
+    }
+
+    /* Focus visible styles for accessibility */
+    :focus-visible {
+        outline: 2px solid var(--interactive-primary);
+        outline-offset: 2px;
+    }
+
+    /* Remove default button styles */
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font: inherit;
+        color: inherit;
+    }
+
+    /* Link styles */
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    /* Image defaults */
+    img,
+    picture,
+    video,
+    canvas,
+    svg {
+        display: block;
+        max-width: 100%;
+    }
+
+    /* Form element defaults */
+    input,
+    button,
+    textarea,
+    select {
+        font: inherit;
+    }
+
+    /* Remove list styles */
+    ul,
+    ol {
+        list-style: none;
+    }
+
+    /* Table defaults */
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    /* Typography defaults */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: inherit;
+        font-size: inherit;
+    }
+
+    /* Strong and bold */
+    strong,
+    b {
+        font-weight: 600;
+    }
+
+    /* Code blocks */
+    code,
+    pre {
+        font-family: var(--font-mono);
+    }
+
+    /* Border color compatibility for Tailwind v4 */
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentcolor);
+    }
+
+    /* Selection styles */
+    ::selection {
+        background-color: color-mix(in srgb, var(--interactive-primary) 20%, transparent);
+        color: var(--text-primary);
+    }
+
+    /* Scrollbar styles - thin scrollbar for consistent cross-browser behavior */
+    html {
+        scrollbar-width: thin;
+        scrollbar-color: var(--border-secondary) transparent;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--border-secondary);
+        border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--text-muted);
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+
+        *,
+        *::before,
+        *::after {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+            scroll-behavior: auto !important;
+        }
+    }
+}

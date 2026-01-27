@@ -1,0 +1,14 @@
+/* ==========================================================================
+   Global Styles - Main Entry Point
+   ========================================================================== */
+
+/* Tailwind CSS Base Import */
+@import 'tailwindcss';
+
+/* Custom Variants */
+@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/* Style Modules */
+@import './theme.css';
+@import './base.css';

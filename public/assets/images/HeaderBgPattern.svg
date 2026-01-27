@@ -1,0 +1,103 @@
+<svg width="1180" height="320" viewBox="0 0 1180 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Line gradients - transparent at top/bottom, visible in middle -->
+        <!-- Intensity decreased by 40%: 0.15 -> 0.11 -> 0.07 -> 0.04 -> 0.02 -> 0.01 -->
+
+        <linearGradient id="lineGrad1" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(255, 255, 255, 0)" />
+            <stop offset="30%" stop-color="rgba(255, 255, 255, 0.09)" />
+            <stop offset="50%" stop-color="rgba(255, 255, 255, 0.15)" />
+            <stop offset="70%" stop-color="rgba(255, 255, 255, 0.09)" />
+            <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+        </linearGradient>
+
+        <linearGradient id="lineGrad2" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(255, 255, 255, 0)" />
+            <stop offset="30%" stop-color="rgba(255, 255, 255, 0.06)" />
+            <stop offset="50%" stop-color="rgba(255, 255, 255, 0.11)" />
+            <stop offset="70%" stop-color="rgba(255, 255, 255, 0.06)" />
+            <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+        </linearGradient>
+
+        <linearGradient id="lineGrad3" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(255, 255, 255, 0)" />
+            <stop offset="30%" stop-color="rgba(255, 255, 255, 0.04)" />
+            <stop offset="50%" stop-color="rgba(255, 255, 255, 0.07)" />
+            <stop offset="70%" stop-color="rgba(255, 255, 255, 0.04)" />
+            <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+        </linearGradient>
+
+        <linearGradient id="lineGrad4" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(255, 255, 255, 0)" />
+            <stop offset="30%" stop-color="rgba(255, 255, 255, 0.02)" />
+            <stop offset="50%" stop-color="rgba(255, 255, 255, 0.04)" />
+            <stop offset="70%" stop-color="rgba(255, 255, 255, 0.02)" />
+            <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+        </linearGradient>
+
+        <linearGradient id="lineGrad5" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(255, 255, 255, 0)" />
+            <stop offset="30%" stop-color="rgba(255, 255, 255, 0.01)" />
+            <stop offset="50%" stop-color="rgba(255, 255, 255, 0.02)" />
+            <stop offset="70%" stop-color="rgba(255, 255, 255, 0.01)" />
+            <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+        </linearGradient>
+
+        <linearGradient id="lineGrad6" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(255, 255, 255, 0)" />
+            <stop offset="30%" stop-color="rgba(255, 255, 255, 0.006)" />
+            <stop offset="50%" stop-color="rgba(255, 255, 255, 0.01)" />
+            <stop offset="70%" stop-color="rgba(255, 255, 255, 0.006)" />
+            <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+        </linearGradient>
+
+        <!-- Pulse gradient - moves from bottom to top (center lines only) -->
+        <linearGradient id="pulseGradRight" x1="0" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="rgba(255, 255, 255, 0)">
+                <animate attributeName="offset" values="0;1;1" dur="3s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="0%" stop-color="rgba(255, 255, 255, 0.48)">
+                <animate attributeName="offset" values="0;1;1" dur="3s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="15%" stop-color="rgba(255, 255, 255, 0)">
+                <animate attributeName="offset" values="0.15;1.15;1.15" dur="3s"
+                    repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
+
+        <linearGradient id="pulseGradLeft" x1="0" y1="1" x2="0" y2="0">
+            <stop offset="0%" stop-color="rgba(255, 255, 255, 0)">
+                <animate attributeName="offset" values="0;1;1" dur="3s" repeatCount="indefinite"
+                    begin="0.3s" />
+            </stop>
+            <stop offset="0%" stop-color="rgba(255, 255, 255, 0.48)">
+                <animate attributeName="offset" values="0;1;1" dur="3s" repeatCount="indefinite"
+                    begin="0.3s" />
+            </stop>
+            <stop offset="15%" stop-color="rgba(255, 255, 255, 0)">
+                <animate attributeName="offset" values="0.15;1.15;1.15" dur="3s"
+                    repeatCount="indefinite" begin="0.3s" />
+            </stop>
+        </linearGradient>
+    </defs>
+
+    <!-- Right diagonal lines - intensity decreases outward -->
+    <line x1="590" y1="0" x2="710" y2="320" stroke="url(#lineGrad1)" stroke-width="1" />
+    <line x1="640" y1="0" x2="760" y2="320" stroke="url(#lineGrad2)" stroke-width="1" />
+    <line x1="690" y1="0" x2="810" y2="320" stroke="url(#lineGrad3)" stroke-width="1" />
+    <line x1="740" y1="0" x2="860" y2="320" stroke="url(#lineGrad4)" stroke-width="1" />
+    <line x1="790" y1="0" x2="910" y2="320" stroke="url(#lineGrad5)" stroke-width="1" />
+    <line x1="840" y1="0" x2="960" y2="320" stroke="url(#lineGrad6)" stroke-width="1" />
+
+    <!-- Left diagonal lines - intensity decreases outward -->
+    <line x1="590" y1="0" x2="470" y2="320" stroke="url(#lineGrad1)" stroke-width="1" />
+    <line x1="540" y1="0" x2="420" y2="320" stroke="url(#lineGrad2)" stroke-width="1" />
+    <line x1="490" y1="0" x2="370" y2="320" stroke="url(#lineGrad3)" stroke-width="1" />
+    <line x1="440" y1="0" x2="320" y2="320" stroke="url(#lineGrad4)" stroke-width="1" />
+    <line x1="390" y1="0" x2="270" y2="320" stroke="url(#lineGrad5)" stroke-width="1" />
+    <line x1="340" y1="0" x2="220" y2="320" stroke="url(#lineGrad6)" stroke-width="1" />
+
+    <!-- Center lines pulse overlay -->
+    <line x1="590" y1="0" x2="710" y2="320" stroke="url(#pulseGradRight)" stroke-width="2" />
+    <line x1="590" y1="0" x2="470" y2="320" stroke="url(#pulseGradLeft)" stroke-width="2" />
+</svg>

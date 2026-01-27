@@ -1,0 +1,210 @@
+/* ==========================================================================
+   Theme Configuration - CSS Variables & Tailwind Theme
+   ========================================================================== */
+
+@theme {
+    /* Custom fonts */
+    --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    /* Custom breakpoints - adjusted so tablet includes 768px */
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 780px;
+    /* Changed from 768px so tablet view shows at 768px */
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+}
+
+/* ==========================================================================
+   Color Scheme & CSS Variables
+   ========================================================================== */
+
+:root {
+    /* Base colors */
+    --background: #ffffff;
+    --foreground: #0a0a0a;
+
+    /* Surface colors */
+    --surface-primary: #ffffff;
+    --surface-secondary: #fafafa;
+    --surface-secondary-alt: #f9f9f9;
+    --surface-secondary-alt-2: #ffffff;
+    --surface-tertiary: #f5f5f5;
+    --surface-hover: #f5f5f5;
+
+    /* Border colors */
+    --border-primary: #e5e5e5;
+    --border-secondary: #d4d4d4;
+    --border-secondary-alt: #f1f1f1;
+    --border-tertiary: #a3a3a3;
+    --shineBorder: #d9d9d9;
+
+    /* Text colors */
+    --text-primary: #0a0a0a;
+    --text-secondary: #404040;
+    --text-tertiary: #525252;
+    --text-muted: #a3a3a3;
+    --text-inverted: #ffffff;
+
+    /* Interactive colors */
+    --interactive-primary: #000000;
+    --interactive-hover: #171717;
+    --interactive-focus: #3b82f6;
+
+    /* Status colors */
+    --status-success-bg: #dcfce7;
+    --status-success-border: #bbf7d0;
+    --status-success-text: #166534;
+    --status-warning-bg: #fefce8;
+    --status-warning-border: #fef08a;
+    --status-warning-text: #a16207;
+    --status-warning-dot: #eab308;
+    --status-error-bg: #fef2f2;
+    --status-error-border: #fee2e2;
+    --status-error-text: #b91c1c;
+    --status-info-bg: #eff6ff;
+    --status-info-border: #dbeafe;
+    --status-info-text: #60a5fa;
+
+    /* Trend colors */
+    --trend-positive: #3b82f6;
+    --trend-negative: #ef4444;
+
+    /* Danger/Destructive */
+    --danger-text: #dc2626;
+    --danger-bg-hover: #fef2f2;
+
+    /* Progress component */
+    --progress-active-bg: #000000;
+    --progress-inactive-bg: #e0e0e0;
+
+    /* Grid background */
+    --grid-line-color: rgba(0, 0, 0, 0.1);
+    --grid-line-color-light: rgba(0, 0, 0, 0.06);
+
+    /* Accent colors */
+    --accent-1: #000000;
+
+    /* Map specific */
+    --map-bg: #f5f5f5;
+    --map-filter: invert(100%);
+
+    /* Overlay/Backdrop */
+    --overlay-bg: rgba(0, 0, 0, 0.2);
+    --backdrop-blur: 4px;
+
+    /* Gradient accent (for CTAs, highlights) */
+    --gradient-start: #3b82f6;
+    --gradient-end: #8b5cf6;
+    --gradient-start-hover: #2563eb;
+    --gradient-end-hover: #7c3aed;
+
+    /* Glow/Lamp effect */
+    --glow-primary: rgba(212, 212, 212, 0.5);
+    --glow-secondary: rgba(212, 212, 212, 0.4);
+    --glow-tertiary: rgba(212, 212, 212, 0.2);
+    --glow-bg: rgba(212, 212, 212, 0.3);
+
+    /* Gradient overlay (for section backgrounds) */
+    --gradient-overlay-from: rgba(245, 245, 245, 0.5);
+
+    /* Misc */
+    --white: #ededed;
+
+    color-scheme: light;
+}
+
+.dark,
+[data-theme="dark"] {
+    /* Base colors */
+    --background: #000000;
+    --foreground: #f5f5f5;
+
+    /* Surface colors */
+    --surface-primary: #000000;
+    --surface-secondary: #111111ff;
+    --surface-secondary-alt: #141414;
+    --surface-secondary-alt-2: #181818;
+    --surface-tertiary: #171717;
+    --surface-hover: #262626;
+
+
+    /* Border colors */
+    --border-primary: #262626;
+    --border-secondary-alt: #1c1c1c;
+    --border-secondary: #404040;
+    --border-tertiary: #525252;
+    --shineBorder: #444444;
+
+    /* Text colors */
+    --text-primary: #f5f5f5;
+    --text-secondary: #d4d4d4;
+    --text-tertiary: #a3a3a3;
+    --text-muted: #737373;
+    --text-inverted: #0a0a0a;
+
+    /* Interactive colors */
+    --interactive-primary: #ffffff;
+    --interactive-hover: #e5e5e5;
+    --interactive-focus: #a3a3a3;
+
+    /* Status colors */
+    --status-success-bg: rgba(34, 197, 94, 0.2);
+    --status-success-border: rgba(34, 197, 94, 0.3);
+    --status-success-text: #86efac;
+    --status-warning-bg: rgba(234, 179, 8, 0.2);
+    --status-warning-border: rgba(234, 179, 8, 0.3);
+    --status-warning-text: #fde047;
+    --status-warning-dot: #facc15;
+    --status-error-bg: rgba(239, 68, 68, 0.2);
+    --status-error-border: rgba(239, 68, 68, 0.3);
+    --status-error-text: #fca5a5;
+    --status-info-bg: rgba(59, 130, 246, 0.2);
+    --status-info-border: rgba(59, 130, 246, 0.3);
+    --status-info-text: #93c5fd;
+
+    /* Trend colors */
+    --trend-positive: #60a5fa;
+    --trend-negative: #f87171;
+
+    /* Danger/Destructive */
+    --danger-text: #f87171;
+    --danger-bg-hover: rgba(239, 68, 68, 0.1);
+
+    /* Progress component */
+    --progress-active-bg: #ffffff;
+    --progress-inactive-bg: #333333;
+
+    /* Grid background */
+    --grid-line-color: rgba(255, 255, 255, 0.1);
+    --grid-line-color-light: rgba(255, 255, 255, 0.06);
+
+    /* Accent colors */
+    --accent-1: #ffffff;
+
+    /* Map specific */
+    --map-bg: #000000;
+    --map-filter: none;
+
+    /* Overlay/Backdrop */
+    --overlay-bg: rgba(0, 0, 0, 0.4);
+    --backdrop-blur: 4px;
+
+    /* Gradient accent (for CTAs, highlights) */
+    --gradient-start: #3b82f6;
+    --gradient-end: #8b5cf6;
+    --gradient-start-hover: #2563eb;
+    --gradient-end-hover: #7c3aed;
+
+    /* Glow/Lamp effect */
+    --glow-primary: rgba(107, 114, 128, 0.8);
+    --glow-secondary: rgba(107, 114, 128, 0.2);
+    --glow-tertiary: rgba(107, 114, 128, 0.2);
+    --glow-bg: rgba(3, 7, 18, 0.2);
+
+    /* Gradient overlay (for section backgrounds) */
+    --gradient-overlay-from: rgba(23, 23, 23, 0.3);
+
+    color-scheme: dark;
+}
