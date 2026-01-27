@@ -1,7 +1,0 @@
-module.exports = [
-"[project]/messages/common/en.json (json)", ((__turbopack_context__) => {
-
-__turbopack_context__.v({"metadata":{"title":"Publino | Next.js Landing Page Template","description":"Modern Next.js landing page template: Responsive, dark mode, SEO optimized, high-performance. Includes premium components."},"Header":{"home":"Home"},"accessibility":{"skipToContent":"Skip to main content"},"footer":{"copyright":"© 2025 Publino Templates. All rights reserved."},"buttons":{"learnMore":"Learn More","getStarted":"Get Started","submit":"Submit","cancel":"Cancel","close":"Close","tryItFree":"Try it free","contactUs":"Contact Us"},"errors":{"required":"This field is required","invalidEmail":"Please enter a valid email address","somethingWentWrong":"Something went wrong. Please try again."},"navigation":{"logo":"Publino","links":{"features":"Features","templates":"Templates","pricing":"Pricing","faq":"FAQ","contact":"Contact"},"actions":{"login":"Login","bookCall":"Book a call"},"mobileMenu":{"open":"Open menu","close":"Close menu"}},"languageSwitcher":{"label":"Language","english":"English","arabic":"العربية"}});}),
-];
-
-//# sourceMappingURL=messages_common_en_json_f40c651c._.js.map
