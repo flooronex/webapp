@@ -29,7 +29,7 @@ export default function BrandHeader({
             <IconRocket />
           </span>
         </div>
-        <h1 className="text-(--text-primary) font-semibold">Publino</h1>
+        <h1 className="text-(--text-primary) font-semibold">FloorOneX</h1>
       </div>
     </motion.div>
   );

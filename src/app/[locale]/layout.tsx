@@ -20,14 +20,14 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Publino | Next.js Landing Page Template",
+  title: "FloorOneX | Next.js Landing Page Template",
   description:
     "Modern Next.js landing page template: Responsive, dark mode, SEO optimized, high-performance. Includes premium components.",
   keywords: [
     "next.js",
     "landing page",
     "template",
-    "Publino",
+    "FloorOneX",
     "responsive",
     "modern design",
     "high-performance",
@@ -38,13 +38,13 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Publino | Next.js Landing Page Template",
+    title: "FloorOneX | Next.js Landing Page Template",
     description:
       "Modern Next.js landing page template: Responsive, dark mode, SEO optimized, high-performance. Includes premium components.",
     type: "website",
     locale: "en_US",
     url: "https://publino-template.vercel.app",
-    siteName: "Publino Templates",
+    siteName: "FloorOneX Templates",
     images: [
       {
         url: "/image.png",
@@ -151,7 +151,7 @@ export default async function LocaleLayout({ children, params }: Props) {
                   <div className="container mx-auto max-w-350 px-4">
                     <div className="flex justify-center">
                       <p className="text-sm text-gray-500 dark:text-gray-400">
-                        © 2025 Publino Templates. All rights reserved.
+                        © 2026 Floor One X. All rights reserved.
                       </p>
                     </div>
                     {/* Buy Template CTA Strip - only show if URL exists */}

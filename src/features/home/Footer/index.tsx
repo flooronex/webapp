@@ -44,7 +44,7 @@ export default function FooterSection() {
           {/* Text effect container */}
           <div className="relative h-2.5 md:h-125">
             <TextHoverEffect
-              text="Publino"
+              text="FloorOneX"
               className="absolute w-full h-37.5 md:h-62.5 translate-y-[55%] bottom-0 pointer-events-none md:pointer-events-auto"
             />
           </div>

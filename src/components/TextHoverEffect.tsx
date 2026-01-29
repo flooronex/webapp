@@ -118,8 +118,8 @@ export const TextHoverEffect = ({
           >
             {(hovered || automatic) && (
               <>
-                <stop offset="0%" stopColor="#eab308" />
-                <stop offset="25%" stopColor="#ef4444" />
+                <stop offset="0%" stopColor="#00FBFF" />
+                <stop offset="25%" stopColor="#2200FF" />
                 <stop offset="50%" stopColor="#3b82f6" />
                 <stop offset="75%" stopColor="#06b6d4" />
                 <stop offset="100%" stopColor="#8b5cf6" />
@@ -154,7 +154,7 @@ export const TextHoverEffect = ({
           textAnchor="middle"
           dominantBaseline="middle"
           strokeWidth="0.3"
-          className="fill-transparent stroke-(--border-primary) font-[helvetica] text-7xl font-bold"
+          className="fill-transparent stroke-(--border-primary) font-[helvetica] text-5xl font-bold"
           style={{ opacity: hovered || automatic ? 0.7 : 0 }}
         >
           {text}
@@ -165,7 +165,7 @@ export const TextHoverEffect = ({
           textAnchor="middle"
           dominantBaseline="middle"
           strokeWidth="0.3"
-          className="fill-transparent stroke-(--border-primary) font-[helvetica] text-7xl font-bold"
+          className="fill-transparent stroke-(--border-primary) font-[helvetica] text-5xl font-bold"
           initial={{ strokeDashoffset: 1500, strokeDasharray: 1500 }}
           animate={{
             strokeDashoffset: 0,
@@ -186,7 +186,7 @@ export const TextHoverEffect = ({
           stroke="url(#textGradient)"
           strokeWidth="0.3"
           mask="url(#textMask)"
-          className="fill-transparent font-[helvetica] text-7xl font-bold"
+          className="fill-transparent font-[helvetica] text-5xl font-bold"
         >
           {text}
         </text>
