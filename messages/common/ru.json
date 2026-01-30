@@ -1,53 +1,54 @@
 {
   "metadata": {
-    "title": "FloorOneX | Flooring Installation Marketplace",
-    "description": "FloorOneX connects customers with trusted flooring installers. Get fast quotes, verified professionals, and seamless booking across the UK."
+    "title": "FloorOneX | Маркетплейс по установке напольных покрытий",
+    "description": "FloorOneX соединяет клиентов с проверенными специалистами по установке напольных покрытий. Быстрые расчёты, надёжные подрядчики и удобное бронирование по всей Великобритании."
   },
   "Header": {
-    "home": "Home"
+    "home": "Главная"
   },
   "accessibility": {
-    "skipToContent": "Skip to main content"
+    "skipToContent": "Перейти к основному содержимому"
   },
   "footer": {
-    "copyright": "© 2025 Functional Flooring Ltd. All rights reserved."
+    "copyright": "© 2025 Functional Flooring Ltd. Все права защищены."
   },
   "buttons": {
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "submit": "Submit",
-    "cancel": "Cancel",
-    "close": "Close",
-    "tryItFree": "Try it free",
-    "contactUs": "Contact Us"
+    "learnMore": "Узнать больше",
+    "getStarted": "Начать",
+    "submit": "Отправить",
+    "cancel": "Отмена",
+    "close": "Закрыть",
+    "tryItFree": "Попробовать бесплатно",
+    "contactUs": "Связаться с нами"
   },
   "errors": {
-    "required": "This field is required",
-    "invalidEmail": "Please enter a valid email address",
-    "somethingWentWrong": "Something went wrong. Please try again."
+    "required": "Это поле обязательно для заполнения",
+    "invalidEmail": "Пожалуйста, введите корректный адрес электронной почты",
+    "somethingWentWrong": "Произошла ошибка. Пожалуйста, попробуйте снова."
   },
   "navigation": {
     "logo": "FloorOneX",
     "links": {
-      "features": "How It Works",
-      "templates": "Services",
-      "pricing": "Pricing",
-      "faq": "FAQ",
-      "contact": "Contact"
+      "features": "Как это работает",
+      "templates": "Услуги",
+      "pricing": "Цены",
+      "about": "О нас",
+      "faq": "Вопросы и ответы",
+      "contact": "Контакты"
     },
     "actions": {
-      "login": "Login",
-      "bookCall": "Request a Quote"
+      "login": "Войти",
+      "bookCall": "Запросить расчёт"
     },
     "mobileMenu": {
-      "open": "Open menu",
-      "close": "Close menu"
+      "open": "Открыть меню",
+      "close": "Закрыть меню"
     }
   },
   "languageSwitcher": {
-    "label": "Language",
-    "english": "English",
-    "romanian": "Romana",
-    "arabic": "العربية"
+    "label": "Язык",
+    "english": "Английский",
+    "romanian": "Румынский",
+    "arabic": "Арабский"
   }
 }

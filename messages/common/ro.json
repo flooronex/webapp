@@ -1,53 +1,54 @@
 {
   "metadata": {
-    "title": "FloorOneX | Flooring Installation Marketplace",
-    "description": "FloorOneX connects customers with trusted flooring installers. Get fast quotes, verified professionals, and seamless booking across the UK."
+    "title": "FloorOneX | Marketplace pentru Montaj Pardoseli",
+    "description": "FloorOneX conectează clienții cu montatori de pardoseli verificați din Marea Britanie. Primește rapid oferte, profesioniști de încredere și programări simple."
   },
   "Header": {
-    "home": "Home"
+    "home": "Acasă"
   },
   "accessibility": {
-    "skipToContent": "Skip to main content"
+    "skipToContent": "Sari la conținutul principal"
   },
   "footer": {
-    "copyright": "© 2025 Functional Flooring Ltd. All rights reserved."
+    "copyright": "© 2025 Functional Flooring Ltd. Toate drepturile rezervate."
   },
   "buttons": {
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "submit": "Submit",
-    "cancel": "Cancel",
-    "close": "Close",
-    "tryItFree": "Try it free",
-    "contactUs": "Contact Us"
+    "learnMore": "Află mai multe",
+    "getStarted": "Începe acum",
+    "submit": "Trimite",
+    "cancel": "Anulează",
+    "close": "Închide",
+    "tryItFree": "Încearcă gratuit",
+    "contactUs": "Contactează-ne"
   },
   "errors": {
-    "required": "This field is required",
-    "invalidEmail": "Please enter a valid email address",
-    "somethingWentWrong": "Something went wrong. Please try again."
+    "required": "Acest câmp este obligatoriu",
+    "invalidEmail": "Te rugăm să introduci o adresă de email validă",
+    "somethingWentWrong": "A apărut o eroare. Te rugăm să încerci din nou."
   },
   "navigation": {
     "logo": "FloorOneX",
     "links": {
-      "features": "How It Works",
-      "templates": "Services",
-      "pricing": "Pricing",
-      "faq": "FAQ",
+      "features": "Cum funcționează",
+      "templates": "Servicii",
+      "pricing": "Prețuri",
+      "about": "Despre noi",
+      "faq": "Întrebări frecvente",
       "contact": "Contact"
     },
     "actions": {
-      "login": "Login",
-      "bookCall": "Request a Quote"
+      "login": "Autentificare",
+      "bookCall": "Solicită o ofertă"
     },
     "mobileMenu": {
-      "open": "Open menu",
-      "close": "Close menu"
+      "open": "Deschide meniul",
+      "close": "Închide meniul"
     }
   },
   "languageSwitcher": {
-    "label": "Language",
-    "english": "English",
-    "romanian": "Romana",
-    "arabic": "العربية"
+    "label": "Limbă",
+    "english": "Engleză",
+    "romanian": "Română",
+    "arabic": "Arabă"
   }
 }

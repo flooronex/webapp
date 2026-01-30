@@ -8,6 +8,7 @@ import { FeatureComparisonCategory } from "../../config/types";
 import { TableHeader, CategorySection } from "./components";
 import SectionHeader from "@/components/SectionHeader";
 
+
 const categories: FeatureComparisonCategory[] = [
   "core",
   "analytics",
@@ -33,12 +34,12 @@ export function ComparisonTable() {
     {
       id: "starter",
       name: t("comparison.starter"),
-      price: `$29/${t("billing.month")}`,
+      price: `£59/${t("billing.month")}`,
     },
     {
       id: "growth",
       name: t("comparison.growth"),
-      price: `$79/${t("billing.month")}`,
+      price: `£159/${t("billing.month")}`,
       highlighted: true,
     },
     {

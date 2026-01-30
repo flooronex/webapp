@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Logo, NavLinks, Actions, MobileMenu } from "./components";
 import {
@@ -9,7 +11,6 @@ import {
   useMobileMenu,
 } from "./hooks";
 import { navStyles, navLinks, navActions } from "./config";
-import { IconRocket } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 
 export function Navbar({ className }: { className?: string }) {
@@ -27,10 +28,11 @@ export function Navbar({ className }: { className?: string }) {
   } = useSliderAnimation();
   const navRef = useMouseTracking({ onMouseLeaveNav: handleLinksMouseLeave });
 
-  // Navbar configuration using translations
+  // Logo configuration with light and dark mode images
   const logo = {
-    icon: <IconRocket className="w-5 h-5 min-w-5 min-h-5" />,
-    text: t("logo"),
+    lightImage: "/assets/images/fox_shader.png",
+    darkImage: "/assets/images/fox_color.png",
+    alt: t("logo"),
   };
 
   // Resolve translations for links from config
@@ -81,8 +83,30 @@ export function Navbar({ className }: { className?: string }) {
                   : navStyles.content.default
               )}
             >
-              {/* Logo */}
-              <Logo icon={logo.icon} text={logo.text} />
+              {/* Logo with Light/Dark Mode Images */}
+              <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+                {/* Light Mode Logo */}
+                <Image
+                  src={logo.lightImage}
+                  alt={logo.alt}
+                  width={32}
+                  height={32}
+                  className="block dark:hidden animate-pulse"
+                  priority
+                />
+                {/* Dark Mode Logo */}
+                <Image
+                  src={logo.darkImage}
+                  alt={logo.alt}
+                  width={32}
+                  height={32}
+                  className="hidden dark:block animate-pulse"
+                  priority
+                />
+                <span className="text-lg font-bold text-slate-900 dark:text-white">
+                  FloorOneX™ 
+                </span>
+              </Link>
 
               <div className="w-full h-8" aria-hidden="true" />
 

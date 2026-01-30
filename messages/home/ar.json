@@ -289,7 +289,7 @@
             "components": {
                 "name": "المكونات",
                 "description": "مثالي للمطورين الذين يحتاجون إلى كتل بناء واجهة محددة",
-                "price": "$29",
+                "price": "£59",
                 "priceLabel": "مرة واحدة",
                 "socialProof": "يستخدمه 2.5 ألف مصمم",
                 "featuresTitle": "ما هو مشمول:",
@@ -312,7 +312,7 @@
             "templates": {
                 "name": "القوالب والمكونات",
                 "description": "أفضل قيمة - كل ما تحتاجه لبناء مواقع احترافية",
-                "price": "$79",
+                "price": "£159",
                 "priceLabel": "مرة واحدة",
                 "socialProof": "يستخدمه 5.5 ألف مصمم",
                 "featuresTitle": "ما هو مشمول:",
@@ -337,7 +337,7 @@
             "enterprise": {
                 "name": "المؤسسات",
                 "description": "للفرق التي تحتاج إلى ميزات متقدمة ودعم مخصص",
-                "price": "$299",
+                "price": "£299",
                 "priceLabel": "مرة واحدة",
                 "socialProof": "يستخدمه 12.5 ألف مصمم",
                 "featuresTitle": "ما هو مشمول:",

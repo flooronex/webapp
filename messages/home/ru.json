@@ -1,480 +1,480 @@
 {
   "hero": {
     "title": {
-      "line1": "Find trusted flooring",
-      "line2": "professionals in minutes."
+      "line1": "Найдите проверенных специалистов по напольным покрытиям",
+      "line2": "всего за несколько минут."
     },
-    "description": "FloorOneX helps homeowners and businesses connect with verified flooring installers. Request quotes, compare offers, and manage your flooring project from start to finish.",
+    "description": "FloorOneX помогает домовладельцам и компаниям находить проверенных монтажников напольных покрытий. Запросите предложения, сравните цены и управляйте своим проектом от начала до конца.",
     "cta": {
-      "getStarted": "Get Started",
-      "learnMore": "Learn More"
+      "getStarted": "Начать",
+      "learnMore": "Узнать больше"
     }
   },
   "dashboard": {
-    "title": "FloorOneX Dashboard",
-    "description": "Manage quotes, jobs, and flooring professionals in one place",
-    "search": "Search jobs, quotes, or providers...",
+    "title": "Панель FloorOneX",
+    "description": "Управляйте предложениями, заказами и специалистами по напольным покрытиям в одном месте",
+    "search": "Поиск заказов, предложений или специалистов...",
     "user": {
-      "name": "John Smith",
+      "name": "Джон Смит",
       "email": "john@flooronex.com",
       "initials": "JS"
     },
     "menu": {
-      "profile": "Profile",
-      "messages": "Messages",
-      "settings": "Settings",
-      "logout": "Logout"
+      "profile": "Профиль",
+      "messages": "Сообщения",
+      "settings": "Настройки",
+      "logout": "Выйти"
     },
     "sidebar": {
       "sections": {
-        "main": "Main",
-        "management": "Management",
-        "resources": "Resources"
+        "main": "Главная",
+        "management": "Управление",
+        "resources": "Ресурсы"
       },
       "items": {
-        "overview": "Overview",
-        "projects": "My Jobs",
-        "deployments": "Quotes",
-        "notifications": "Notifications",
-        "team": "Providers",
-        "settings": "Settings",
-        "documentation": "Help Center",
-        "support": "Support",
-        "changelog": "Updates"
+        "overview": "Обзор",
+        "projects": "Мои заказы",
+        "deployments": "Предложения",
+        "notifications": "Уведомления",
+        "team": "Специалисты",
+        "settings": "Настройки",
+        "documentation": "Центр помощи",
+        "support": "Поддержка",
+        "changelog": "Обновления"
       }
     },
     "main": {
-      "recentDeployments": "Recent Jobs",
-      "newDeployment": "Request New Quote",
+      "recentDeployments": "Недавние заказы",
+      "newDeployment": "Запросить новое предложение",
       "kpi": {
-        "totalDeployments": "Total Jobs",
-        "successfulDeployments": "Completed Jobs",
-        "failedDeployments": "Cancelled Jobs",
-        "averageDeployTime": "Average Completion Time",
-        "uptime": "Platform Availability"
+        "totalDeployments": "Всего заказов",
+        "successfulDeployments": "Выполнено заказов",
+        "failedDeployments": "Отменено заказов",
+        "averageDeployTime": "Среднее время выполнения",
+        "uptime": "Доступность платформы"
       },
       "table": {
-        "name": "Job Name",
-        "status": "Status",
-        "lastDeployed": "Last Updated",
-        "environment": "Location",
-        "version": "Assigned Provider",
-        "actions": "Actions",
-        "viewDetails": "View Details",
-        "edit": "Edit",
-        "delete": "Cancel"
+        "name": "Название заказа",
+        "status": "Статус",
+        "lastDeployed": "Последнее обновление",
+        "environment": "Локация",
+        "version": "Назначенный специалист",
+        "actions": "Действия",
+        "viewDetails": "Подробнее",
+        "edit": "Редактировать",
+        "delete": "Отменить"
       },
       "statuses": {
-        "ready": "Scheduled",
-        "process": "In Progress",
-        "error": "Issue"
+        "ready": "Запланировано",
+        "process": "В процессе",
+        "error": "Проблема"
       },
       "projects": {
-        "mainWebsite": "Residential Flooring",
-        "apiGateway": "Commercial Flooring",
-        "analyticsService": "Laminate Installation",
-        "paymentApi": "Wood Flooring",
-        "authService": "LVT & Vinyl",
-        "backupService": "Carpet Installation"
+        "mainWebsite": "Жилые помещения",
+        "apiGateway": "Коммерческие помещения",
+        "analyticsService": "Монтаж ламината",
+        "paymentApi": "Деревянные полы",
+        "authService": "LVT и винил",
+        "backupService": "Монтаж ковролина"
       },
       "descriptions": {
-        "mainWebsite": "Home flooring installation projects",
-        "apiGateway": "Office and commercial flooring projects",
-        "analyticsService": "Laminate flooring supply and fitting",
-        "paymentApi": "Engineered and solid wood flooring",
-        "authService": "Luxury vinyl tile installation services",
-        "backupService": "Carpet fitting and replacement services"
+        "mainWebsite": "Проекты по укладке полов в жилых помещениях",
+        "apiGateway": "Проекты по напольным покрытиям для офисов и бизнеса",
+        "analyticsService": "Поставка и монтаж ламината",
+        "paymentApi": "Инженерные и массивные деревянные полы",
+        "authService": "Монтаж плитки из роскошного винила",
+        "backupService": "Укладка и замена ковролина"
       }
     }
   },
   "whyChooseUs": {
-    "badge": "Why FloorOneX",
-    "title": "Why Choose FloorOneX?",
-    "description": "We simplify flooring projects by connecting customers with trusted professionals through a transparent and easy-to-use platform.",
+    "badge": "Почему FloorOneX",
+    "title": "Почему выбирают FloorOneX?",
+    "description": "Мы упрощаем проекты по укладке полов, соединяя клиентов с надежными профессионалами через прозрачную и простую в использовании платформу.",
     "items": {
       "lightningFast": {
-        "title": "Fast Quotes",
-        "description": "Receive multiple quotes from verified flooring professionals in a short time."
+        "title": "Быстрые предложения",
+        "description": "Получайте несколько предложений от проверенных специалистов по напольным покрытиям за короткое время."
       },
       "modular": {
-        "title": "Verified Installers",
-        "description": "All providers are vetted to ensure quality, reliability, and professionalism."
+        "title": "Проверенные монтажники",
+        "description": "Все поставщики проходят проверку для обеспечения качества, надежности и профессионализма."
       },
       "responsive": {
-        "title": "All-in-One Platform",
-        "description": "Manage quotes, communication, and payments in one single place."
+        "title": "Универсальная платформа",
+        "description": "Управляйте предложениями, общением и платежами в одном месте."
       },
       "performance": {
-        "title": "Transparent Pricing",
-        "description": "Compare offers clearly with no hidden fees or surprises."
+        "title": "Прозрачное ценообразование",
+        "description": "Сравнивайте предложения ясно, без скрытых комиссий и сюрпризов."
       }
     },
     "buttons": {
-      "exploreTemplates": "Find Installers",
-      "requestCustom": "Request a Quote"
+      "exploreTemplates": "Найти монтажников",
+      "requestCustom": "Запросить предложение"
     },
-    "performanceLabel": "Trust & Quality"
+    "performanceLabel": "Надежность и качество"
   },
   "features": {
-    "title": "Platform Features",
-    "description": "Everything you need to plan, book, and manage flooring projects",
+    "title": "Возможности платформы",
+    "description": "Все что вам нужно для планирования, бронирования и управления проектами полов",
     "performanceMetrics": {
-      "title": "Project Insights",
-      "description": "Monitor progress, quality, and performance of your flooring jobs.",
+      "title": "Анализ проектов",
+      "description": "Отслеживайте прогресс, качество и производительность ваших проектов по укладке полов.",
       "metrics": {
         "performance": {
-          "title": "Completion Rate",
-          "description": "Successfully completed projects"
+          "title": "Процент завершения",
+          "description": "Успешно завершённые проекты"
         },
         "accessibility": {
-          "title": "Availability",
-          "description": "Installer availability in your area"
+          "title": "Доступность",
+          "description": "Доступность монтажников в вашем районе"
         },
         "bestPractices": {
-          "title": "Quality Standards",
-          "description": "Compliance with industry best practices"
+          "title": "Стандарты качества",
+          "description": "Соответствие лучшим практикам отрасли"
         },
         "seo": {
-          "title": "Regional Coverage",
-          "description": "Service coverage across cities and regions"
+          "title": "Региональное покрытие",
+          "description": "Обслуживание городов и регионов"
         }
       },
       "tabs": {
-        "performance": "Completion",
-        "accessibility": "Availability",
-        "bestPractices": "Quality",
-        "seo": "Coverage"
+        "performance": "Завершение",
+        "accessibility": "Доступность",
+        "bestPractices": "Качество",
+        "seo": "Покрытие"
       },
       "details": {
         "performance": {
-          "fcp": "First Contact Time",
-          "lcp": "Job Completion Time",
-          "tbt": "Response Delay",
-          "cls": "Schedule Accuracy",
-          "si": "Service Index"
+          "fcp": "Время первого контакта",
+          "lcp": "Время выполнения заказа",
+          "tbt": "Задержка ответа",
+          "cls": "Точность расписания",
+          "si": "Индекс услуг"
         },
         "accessibility": {
-          "colorContrast": "Local Providers",
-          "ariaAttributes": "Verified Profiles",
-          "keyboardNav": "Easy Booking",
-          "labelsAlt": "Clear Job Details",
-          "focusIndicators": "Customer Support"
+          "colorContrast": "Местные специалисты",
+          "ariaAttributes": "Проверенные профили",
+          "keyboardNav": "Легкое бронирование",
+          "labelsAlt": "Четкие детали заказа",
+          "focusIndicators": "Поддержка клиентов"
         },
         "bestPractices": {
-          "https": "Secure Payments",
-          "jsErrors": "Issue Reporting",
-          "imageRatio": "Photo Proof",
-          "deprecatedApis": "Outdated Listings",
-          "browserSupport": "Device Compatibility"
+          "https": "Безопасные платежи",
+          "jsErrors": "Отчет о проблемах",
+          "imageRatio": "Фотодоказательства",
+          "deprecatedApis": "Устаревшие объявления",
+          "browserSupport": "Совместимость устройств"
         },
         "seo": {
-          "metaDescription": "Local Search Visibility",
-          "crawlableLinks": "Service Listings",
-          "fontSizes": "Readable Content",
-          "searchFriendly": "Easy Discovery",
-          "mobileOptimized": "Mobile Optimized"
+          "metaDescription": "Видимость в локальном поиске",
+          "crawlableLinks": "Объявления услуг",
+          "fontSizes": "Читаемое содержимое",
+          "searchFriendly": "Легкое обнаружение",
+          "mobileOptimized": "Оптимизировано для мобильных"
         }
       },
       "values": {
-        "pass": "Pass",
-        "yes": "Yes",
-        "none": "None",
-        "correct": "Correct",
-        "modern": "Modern"
+        "pass": "Прошёл",
+        "yes": "Да",
+        "none": "Нет",
+        "correct": "Правильно",
+        "modern": "Современно"
       },
       "status": {
-        "analyzing": "Loading...",
-        "complete": "Data Ready",
-        "performanceMetrics": "Job Metrics",
-        "accessibilityMetrics": "Provider Metrics",
-        "bestPracticesMetrics": "Quality Metrics",
-        "seoMetrics": "Coverage Metrics"
+        "analyzing": "Загрузка...",
+        "complete": "Данные готовы",
+        "performanceMetrics": "Метрики заказов",
+        "accessibilityMetrics": "Метрики поставщиков",
+        "bestPracticesMetrics": "Метрики качества",
+        "seoMetrics": "Метрики покрытия"
       }
     },
     "oneClickDeployment": {
-      "title": "Easy Job Booking",
-      "description": "Request, confirm, and start your flooring project with minimal steps.",
-      "footer": "Project Workflow",
+      "title": "Легкое бронирование заказа",
+      "description": "Запросите, подтвердите и начните ваш проект по укладке полов с минимальным количеством шагов.",
+      "footer": "Рабочий процесс проекта",
       "stages": {
-        "preparing": "Request",
-        "building": "Quote",
-        "deploying": "Installation",
-        "success": "Completed"
+        "preparing": "Запрос",
+        "building": "Предложение",
+        "deploying": "Монтаж",
+        "success": "Завершено"
       },
       "terminal": {
         "commands": {
-          "preparing": "Submit project details",
-          "building": "Receive quotes",
-          "deploying": "Schedule installation",
-          "success": "✔ Project completed successfully",
-          "reset": "Preparing next project..."
+          "preparing": "Отправка деталей проекта",
+          "building": "Получение предложений",
+          "deploying": "Планирование монтажа",
+          "success": "✔ Проект успешно завершен",
+          "reset": "Подготовка следующего проекта..."
         },
         "outputs": {
-          "checkingDependencies": "Validating details...",
-          "initializingEnvironment": "Contacting providers...",
-          "bundlingAssets": "Comparing offers...",
-          "optimizingCode": "Scheduling work...",
-          "uploadingToCdn": "Confirming availability...",
-          "settingUpRouting": "Finalizing project..."
+          "checkingDependencies": "Проверка деталей...",
+          "initializingEnvironment": "Связь со специалистами...",
+          "bundlingAssets": "Сравнение предложений...",
+          "optimizingCode": "Планирование работ...",
+          "uploadingToCdn": "Подтверждение доступности...",
+          "settingUpRouting": "Завершение проекта..."
         },
         "success": {
-          "deploymentComplete": "Project completed",
-          "urlLabel": "Reference ID"
+          "deploymentComplete": "Проект завершён",
+          "urlLabel": "ID ссылки"
         }
       }
     },
     "fileStructure": {
-      "title": "Organized Project Flow",
-      "description": "Each flooring project follows a clear and structured workflow.",
-      "explorer": "Project Flow",
+      "title": "Организованный процесс",
+      "description": "Каждый проект по укладке полов следует четкому и структурированному рабочему процессу.",
+      "explorer": "Процесс проекта",
       "projectName": "flooring-project",
-      "footerLeft": "Clear Steps",
-      "footerRight": "Fully Managed"
+      "footerLeft": "Четкие шаги",
+      "footerRight": "Полностью управляемо"
     },
     "scalableEnvironments": {
-      "title": "Scalable Platform",
-      "description": "FloorOneX scales automatically as demand and projects grow.",
-      "resourceUsage": "Platform Usage (24h)",
-      "activeServers": "Active Providers",
-      "footerLeft": "Nationwide Network",
-      "footerRight": "Handles Any Volume",
-      "loading": "Loading..."
+      "title": "Масштабируемая платформа",
+      "description": "FloorOneX автоматически масштабируется по мере роста спроса и проектов.",
+      "resourceUsage": "Использование платформы (24ч)",
+      "activeServers": "Активные специалисты",
+      "footerLeft": "Национальная сеть",
+      "footerRight": "Справляется с любым объемом",
+      "loading": "Загрузка..."
     },
     "globalDeployments": {
-      "title": "Nationwide Coverage",
-      "description": "Access flooring professionals across multiple cities and regions.",
-      "liveStatus": "Live Status",
-      "deployments": "projects",
-      "uptime": "availability",
-      "regions": "regions",
-      "footerLeft": "UK Coverage",
-      "footerRight": "Growing Network"
+      "title": "Национальное покрытие",
+      "description": "Получайте доступ к специалистам по напольным покрытиям в разных городах и регионах.",
+      "liveStatus": "Текущий статус",
+      "deployments": "проекты",
+      "uptime": "доступность",
+      "regions": "регионы",
+      "footerLeft": "Покрытие по всей стране",
+      "footerRight": "Растущая сеть"
     }
   },
   "templates": {
-    "sectionTitle": "Flooring Services",
-    "sectionDescription": "Browse flooring services offered by trusted professionals.",
-    "viewAll": "View All Services",
-    "preview": "Preview",
-    "useTemplate": "Request Quote",
-    "loadMore": "Load More",
-    "browseAll": "Browse All Services"
+    "sectionTitle": "Услуги по напольным покрытиям",
+    "sectionDescription": "Просмотрите услуги по напольным покрытиям, предлагаемые надежными профессионалами.",
+    "viewAll": "Просмотр всех услуг",
+    "preview": "Предпросмотр",
+    "useTemplate": "Запросить предложение",
+    "loadMore": "Загрузить ещё",
+    "browseAll": "Просмотрите все услуги"
   },
   "responsiveTemplates": {
-    "title": "Accessible on Any Device",
-    "description": "Use FloorOneX seamlessly on mobile, tablet, or desktop.",
-    "ctaButton": "Explore Services",
+    "title": "Доступно на любом устройстве",
+    "description": "Используйте FloorOneX без проблем на мобильном, планшете или настольном компьютере.",
+    "ctaButton": "Изучить услуги",
     "features": {
-      "adaptsToScreenSize": "Adapts to all screen sizes",
-      "touchFriendly": "Touch-friendly interface",
-      "optimizedOrientation": "Supports portrait and landscape"
+      "adaptsToScreenSize": "Адаптируется ко всем размерам экрана",
+      "touchFriendly": "Удобный сенсорный интерфейс",
+      "optimizedOrientation": "Поддерживает портретную и альбомную ориентацию"
     }
   },
   "pricing": {
-    "badge": "Fair & Transparent",
-    "title": "Simple Pricing",
-    "description": "Customers use the platform for free. Providers pay only when they win jobs.",
+    "badge": "Справедливое и прозрачное",
+    "title": "Простое ценообразование",
+    "description": "Клиенты используют платформу бесплатно. Поставщики платят только когда выигрывают заказы.",
     "filter": {
-      "allFeatures": "All Features",
-      "showButton": "Show feature categories",
-      "hideButton": "Hide feature categories",
+      "allFeatures": "Все возможности",
+      "showButton": "Показать категории функций",
+      "hideButton": "Скрыть категории функций",
       "categories": {
-        "core": "Core",
-        "support": "Support",
-        "customization": "Customization",
-        "license": "Usage"
+        "core": "Основное",
+        "support": "Поддержка",
+        "customization": "Персонализация",
+        "license": "Использование"
       }
     },
     "plans": {
       "components": {
-        "name": "Customer",
-        "description": "Request quotes and manage flooring projects",
-        "price": "Free",
-        "priceLabel": "no cost",
-        "socialProof": "Used by thousands of homeowners",
-        "featuresTitle": "Includes:",
-        "cta": "Get Started",
+        "name": "Клиент",
+        "description": "Запросите предложения и управляйте проектами по укладке полов",
+        "price": "Бесплатно",
+        "priceLabel": "без стоимости",
+        "socialProof": "Используется тысячами домовладельцев",
+        "featuresTitle": "Включает:",
+        "cta": "Начать работу",
         "features": {
-          "access": "Unlimited quote requests",
-          "updates": "Real-time updates",
-          "support": "Customer support",
-          "license": "Personal use",
-          "downloads": "Project documents",
-          "code": "Secure payments",
-          "tailwind": "Verified installers",
-          "documentation": "Help center access"
+          "access": "Неограниченные запросы предложений",
+          "updates": "Обновления в реальном времени",
+          "support": "Служба поддержки клиентов",
+          "license": "Личное использование",
+          "downloads": "Документы проекта",
+          "code": "Безопасные платежи",
+          "tailwind": "Проверенные монтажники",
+          "documentation": "Доступ в справочный центр"
         },
         "tooltips": {
-          "license": "For personal and business flooring projects",
-          "code": "Payments are held securely until job completion"
+          "license": "Для личных и деловых проектов по укладке полов",
+          "code": "Платежи хранятся безопасно до завершения работы"
         }
       },
       "templates": {
-        "name": "Service Provider",
-        "description": "Grow your flooring business",
-        "price": "Commission-based",
-        "priceLabel": "per job",
-        "socialProof": "Trusted by professionals",
-        "featuresTitle": "Includes:",
-        "cta": "Join as Provider",
+        "name": "Поставщик услуг",
+        "description": "Развивайте свой бизнес по укладке полов",
+        "price": "На основе комиссии",
+        "priceLabel": "за заказ",
+        "socialProof": "Доверяют профессионалы",
+        "featuresTitle": "Включает:",
+        "cta": "Присоединиться как поставщик",
         "features": {
-          "components": "Job leads",
-          "templates": "Public profile listing",
-          "updates": "Instant notifications",
-          "support": "Priority support",
-          "license": "Commercial use",
-          "downloads": "Job documentation",
-          "frameworks": "Business tools",
-          "figma": "Portfolio gallery",
-          "examples": "Customer reviews",
-          "customization": "Profile customization"
+          "components": "Потенциальные клиенты",
+          "templates": "Публичный список профиля",
+          "updates": "Мгновенные уведомления",
+          "support": "Приоритетная поддержка",
+          "license": "Коммерческое использование",
+          "downloads": "Документы заказа",
+          "frameworks": "Бизнес-инструменты",
+          "figma": "Галерея портфолио",
+          "examples": "Отзывы клиентов",
+          "customization": "Персонализация профиля"
         },
         "tooltips": {
-          "license": "Use FloorOneX to acquire unlimited clients",
-          "frameworks": "Optimized for mobile and desktop"
+          "license": "Используйте FloorOneX для привлечения неограниченного количества клиентов",
+          "frameworks": "Оптимизировано для мобильных и настольных устройств"
         }
       },
       "enterprise": {
-        "name": "Enterprise",
-        "description": "For large flooring companies and chains",
-        "price": "Custom",
-        "priceLabel": "tailored",
-        "socialProof": "Used by large teams",
-        "featuresTitle": "Includes:",
-        "cta": "Contact Sales",
+        "name": "Предприятие",
+        "description": "Для крупных компаний и сетей по укладке полов",
+        "price": "Пользовательское",
+        "priceLabel": "подобранное",
+        "socialProof": "Используется большими командами",
+        "featuresTitle": "Включает:",
+        "cta": "Связаться с отделом продаж",
         "features": {
-          "everything": "Everything in Provider plan",
-          "support": "Dedicated account manager",
-          "training": "Team onboarding",
-          "consulting": "Business consulting",
-          "customComponents": "Custom integrations",
-          "earlyAccess": "Early feature access",
-          "license": "Multi-team license",
-          "integration": "System integrations",
-          "priority": "Priority visibility",
-          "sla": "Service level agreement"
+          "everything": "Всё из плана Поставщика",
+          "support": "Выделенный менеджер учёта",
+          "training": "Подготовка команды",
+          "consulting": "Бизнес-консалтинг",
+          "customComponents": "Пользовательские интеграции",
+          "earlyAccess": "Ранний доступ к функциям",
+          "license": "Лицензия для несколько команд",
+          "integration": "Интеграция систем",
+          "priority": "Приоритетная видимость",
+          "sla": "Соглашение об уровне обслуживания"
         },
         "tooltips": {
-          "consulting": "Personalized business consulting",
-          "customComponents": "Custom features on request"
+          "consulting": "Персонализированный бизнес-консалтинг",
+          "customComponents": "Пользовательские функции по запросу"
         }
       }
     },
     "testimonials": {
-      "title": "Trusted by Customers & Professionals",
-      "description": "Thousands of users rely on FloorOneX for their flooring projects.",
-      "author": "Michael Brown",
-      "role": "Flooring Contractor",
-      "quote": "\"FloorOneX helped us win more clients and manage projects more efficiently. It's a game changer.\"",
+      "title": "Доверяют клиентам и профессионалам",
+      "description": "Тысячи пользователей полагаются на FloorOneX для своих проектов по укладке полов.",
+      "author": "Иван Петров",
+      "role": "Подрядчик по укладке полов",
+      "quote": "\"FloorOneX помог нам привлечь больше клиентов и управлять проектами более эффективно. Это игра-чемпион.\"",
       "stats": {
-        "developers": "5,000+",
-        "developersLabel": "Users",
+        "developers": "5.000+",
+        "developersLabel": "Пользователи",
         "satisfaction": "97%",
-        "satisfactionLabel": "Satisfaction",
-        "components": "1,000+",
-        "componentsLabel": "Projects",
+        "satisfactionLabel": "Удовлетворенность",
+        "components": "1.000+",
+        "componentsLabel": "Проекты",
         "support": "24/7",
-        "supportLabel": "Support"
+        "supportLabel": "Поддержка"
       }
     },
     "footer": {
-      "title": "Need more details?",
-      "description": "Contact our team for partnerships or enterprise solutions.",
-      "cta": "Contact Us"
+      "title": "Нужны дополнительные сведения?",
+      "description": "Свяжитесь с нашей командой для партнерства или корпоративных решений.",
+      "cta": "Свяжитесь с нами"
     },
     "modal": {
-      "title": "Coming Soon",
-      "description": "This feature is under development and will be available shortly.",
-      "cta": "Contact Us",
-      "continue": "Continue Browsing"
+      "title": "Скоро",
+      "description": "Эта функция находится в разработке и будет доступна в ближайшее время.",
+      "cta": "Свяжитесь с нами",
+      "continue": "Продолжить просмотр"
     }
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Questions & Answers",
-    "description": "Everything you need to know about FloorOneX",
-    "searchPlaceholder": "Search questions...",
+    "badge": "ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ",
+    "title": "Вопросы и ответы",
+    "description": "Всё что вам нужно знать о FloorOneX",
+    "searchPlaceholder": "Поиск вопросов...",
     "categories": {
-      "all": "All",
-      "templates": "Customers",
-      "components": "Providers",
-      "licensing": "Payments",
-      "support": "Support"
+      "all": "Все",
+      "templates": "Клиенты",
+      "components": "Поставщики",
+      "licensing": "Платежи",
+      "support": "Поддержка"
     },
-    "noResults": "No matching questions found.",
-    "showMore": "Show More Questions",
-    "showLess": "Show Less Questions",
+    "noResults": "Соответствующие вопросы не найдены.",
+    "showMore": "Показать больше вопросов",
+    "showLess": "Показать меньше вопросов",
     "items": {
       "download": {
-        "question": "How do I request a quote?",
-        "answer": "Create an account, submit your project details, and receive quotes from local professionals."
+        "question": "Как запросить предложение?",
+        "answer": "Создайте учетную запись, отправьте подробности проекта и получайте предложения от местных профессионалов."
       },
       "updates": {
-        "question": "Are providers verified?",
-        "answer": "Yes, all flooring professionals are vetted before joining the platform."
+        "question": "Проверены ли поставщики?",
+        "answer": "Да, все специалисты по напольным покрытиям проходят проверку перед присоединением к платформе."
       },
       "clientProjects": {
-        "question": "Do I need to pay upfront?",
-        "answer": "Payments are released only after job milestones are completed."
+        "question": "Нужно ли платить авансом?",
+        "answer": "Платежи выплачиваются только после завершения этапов работы."
       },
       "framework": {
-        "question": "What flooring types are supported?",
-        "answer": "Wood, laminate, vinyl, LVT, carpet, and more."
+        "question": "Какие типы полов поддерживаются?",
+        "answer": "Деревянные, ламинат, винил, LVT, ковролин и другие."
       },
       "support": {
-        "question": "Is support available?",
-        "answer": "Yes, support is available for both customers and providers."
+        "question": "Доступна ли поддержка?",
+        "answer": "Да, поддержка доступна для клиентов и поставщиков."
       },
       "custom": {
-        "question": "Can I request custom services?",
-        "answer": "Yes, you can request tailored flooring solutions from providers."
+        "question": "Можно ли запросить пользовательские услуги?",
+        "answer": "Да, вы можете запросить индивидуальные решения по укладке полов у поставщиков."
       },
       "commercial": {
-        "question": "How does the provider commission work?",
-        "answer": "Providers pay a commission only when they successfully complete a job."
+        "question": "Как работает комиссия поставщика?",
+        "answer": "Поставщики платят комиссию только когда успешно завершают работу."
       },
       "responsive": {
-        "question": "Can I use FloorOneX on mobile?",
-        "answer": "Yes, the platform is fully responsive and works on all devices."
+        "question": "Можно ли использовать FloorOneX на мобильном?",
+        "answer": "Да, платформа полностью отзывчива и работает на всех устройствах."
       },
       "refund": {
-        "question": "What if I'm not satisfied?",
-        "answer": "Our support team will assist in resolving any issues with your project."
+        "question": "Что если я не доволен?",
+        "answer": "Наша служба поддержки поможет в решении любых проблем с вашим проектом."
       },
       "import": {
-        "question": "How do I get started?",
-        "answer": "Sign up, create your project or provider profile, and start using FloorOneX."
+        "question": "Как мне начать?",
+        "answer": "Зарегистрируйтесь, создайте профиль проекта или поставщика и начните использовать FloorOneX."
       }
     }
   },
   "footer": {
-    "title": "Connecting Flooring Professionals Nationwide",
-    "description": "FloorOneX brings customers and flooring experts together across the UK.",
+    "title": "Соединение специалистов по напольным покрытиям по всей стране",
+    "description": "FloorOneX объединяет клиентов и экспертов по полам по всей России.",
     "form": {
-      "name": "Full Name",
-      "namePlaceholder": "John Smith",
-      "email": "Email Address",
-      "emailPlaceholder": "your@email.com",
-      "message": "Your Message",
-      "messagePlaceholder": "How can we help?",
-      "submit": "Send Message",
-      "submitting": "Sending..."
+      "name": "Полное имя",
+      "namePlaceholder": "Иван Петров",
+      "email": "Адрес электронной почты",
+      "emailPlaceholder": "ваш@email.com",
+      "message": "Ваше сообщение",
+      "messagePlaceholder": "Как мы можем помочь?",
+      "submit": "Отправить сообщение",
+      "submitting": "Отправка..."
     },
     "captcha": {
-      "title": "Please verify you're not a robot:",
-      "error": "Captcha verification required",
-      "back": "Back",
-      "confirm": "Confirm & Send"
+      "title": "Пожалуйста, проверьте, что вы не робот:",
+      "error": "Требуется проверка captcha",
+      "back": "Вернуться",
+      "confirm": "Подтвердить и отправить"
     },
     "success": {
-      "title": "Message Sent",
-      "description": "Thank you for contacting us. We'll respond shortly.",
-      "button": "Send Another Message"
+      "title": "Сообщение отправлено",
+      "description": "Спасибо за обращение. Мы ответим в ближайшее время.",
+      "button": "Отправить ещё сообщение"
     },
     "errors": {
-      "name": "Name must be at least 2 characters",
-      "email": "Please enter a valid email address",
-      "message": "Message must be at least 5 characters"
+      "name": "Имя должно содержать не менее 2 символов",
+      "email": "Пожалуйста введите правильный адрес электронной почты",
+      "message": "Сообщение должно содержать не менее 5 символов"
     }
   }
 }

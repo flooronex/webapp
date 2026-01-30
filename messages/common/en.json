@@ -32,6 +32,7 @@
       "features": "How It Works",
       "templates": "Services",
       "pricing": "Pricing",
+      "about": "About Us",
       "faq": "FAQ",
       "contact": "Contact"
     },
@@ -47,7 +48,9 @@
   "languageSwitcher": {
     "label": "Language",
     "english": "English",
-    "romanian": "Romana",
+    "romanian": "Română",
+    "russian": "Русский",
+    "polish": "Polski",
     "arabic": "العربية"
   }
 }

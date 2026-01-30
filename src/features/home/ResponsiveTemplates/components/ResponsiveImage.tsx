@@ -6,7 +6,7 @@ export function ResponsiveImage() {
   return (
     <div className="w-full md:w-1/2 max-w-md mx-auto">
       <Image
-        src="/assets/images/responsive.webp"
+        src="/assets/images/logo_full.png"
         alt="Responsive design illustration"
         className="w-full h-auto object-contain"
         width={500}

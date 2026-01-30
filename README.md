@@ -1,6 +1,17 @@
-# Publino - Next.js Landing Page Template
+# FloorOneX - Landing Page Template
 
 Modern, production-ready landing page template built with Next.js 16, React 19, and Tailwind CSS 4. A fully responsive, SEO-optimized, high-performance template with premium components and dark mode support.
+
+## DORIN
+
+Rulam:
+
+1. CURAT: ```bash 
+            rm -rf .next && npm run dev
+            ```
+2. NORMAL: ```bash
+            npm run dev
+          ```
 
 ## Table of Contents
 

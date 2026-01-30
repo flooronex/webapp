@@ -3,17 +3,23 @@
 import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import { routing, type Locale } from "@/i18n/routing";
-import { GB, SA } from "country-flag-icons/react/3x2";
+import { GB, PL, RO, RU, SA } from "country-flag-icons/react/3x2";
 import { cn } from "@/lib/utils";
 
 const flagComponents: Record<Locale, React.FC<{ className?: string }>> = {
   en: GB,
   ar: SA,
+  ro: RO,
+  ru: RU,
+  pl: PL
 };
 
 const localeNames: Record<Locale, string> = {
   en: "English",
   ar: "العربية",
+  ro: "Română",
+  ru: "Русский",
+  pl: "Polski"
 };
 
 interface MobileLanguageSwitcherProps {
@@ -33,7 +39,7 @@ export function MobileLanguageSwitcher({
 
   return (
     <div className={cn("flex flex-col gap-1", className)}>
-      <span className="text-xs text-(--text-muted) uppercase tracking-wider mb-1">
+      <span className="text-xs text-[var(--text-muted)] uppercase tracking-wider mb-1">
         Language
       </span>
       <div className="flex gap-2">
@@ -47,9 +53,9 @@ export function MobileLanguageSwitcher({
               onClick={() => handleLocaleChange(loc)}
               className={cn(
                 "flex items-center gap-2 px-3 py-2 rounded-lg transition-all",
-                "hover:bg-(--surface-hover)",
+                "hover:bg-[var(--surface-hover)]",
                 isActive &&
-                  "bg-(--surface-tertiary) ring-1 ring-(--border-primary)"
+                  "bg-[var(--surface-tertiary)] ring-1 ring-[var(--border-primary)]"
               )}
               aria-label={`Switch to ${localeNames[loc]}`}
               aria-pressed={isActive}

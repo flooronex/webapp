@@ -1,53 +1,54 @@
 {
   "metadata": {
-    "title": "FloorOneX | Flooring Installation Marketplace",
-    "description": "FloorOneX connects customers with trusted flooring installers. Get fast quotes, verified professionals, and seamless booking across the UK."
+    "title": "FloorOneX | Marketplace Montażu Podłóg",
+    "description": "FloorOneX łączy klientów z zaufanymi wykonawcami montażu podłóg. Szybkie wyceny, zweryfikowani profesjonaliści i łatwa rezerwacja na terenie Wielkiej Brytanii."
   },
   "Header": {
-    "home": "Home"
+    "home": "Strona główna"
   },
   "accessibility": {
-    "skipToContent": "Skip to main content"
+    "skipToContent": "Przejdź do głównej treści"
   },
   "footer": {
-    "copyright": "© 2025 Functional Flooring Ltd. All rights reserved."
+    "copyright": "© 2025 Functional Flooring Ltd. Wszelkie prawa zastrzeżone."
   },
   "buttons": {
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "submit": "Submit",
-    "cancel": "Cancel",
-    "close": "Close",
-    "tryItFree": "Try it free",
-    "contactUs": "Contact Us"
+    "learnMore": "Dowiedz się więcej",
+    "getStarted": "Zacznij teraz",
+    "submit": "Wyślij",
+    "cancel": "Anuluj",
+    "close": "Zamknij",
+    "tryItFree": "Wypróbuj za darmo",
+    "contactUs": "Skontaktuj się z nami"
   },
   "errors": {
-    "required": "This field is required",
-    "invalidEmail": "Please enter a valid email address",
-    "somethingWentWrong": "Something went wrong. Please try again."
+    "required": "To pole jest wymagane",
+    "invalidEmail": "Proszę wprowadzić prawidłowy adres e-mail",
+    "somethingWentWrong": "Coś poszło nie tak. Spróbuj ponownie."
   },
   "navigation": {
     "logo": "FloorOneX",
     "links": {
-      "features": "How It Works",
-      "templates": "Services",
-      "pricing": "Pricing",
+      "features": "Jak to działa",
+      "templates": "Usługi",
+      "pricing": "Cennik",
+      "about": "O nas",
       "faq": "FAQ",
-      "contact": "Contact"
+      "contact": "Kontakt"
     },
     "actions": {
-      "login": "Login",
-      "bookCall": "Request a Quote"
+      "login": "Zaloguj się",
+      "bookCall": "Poproś o wycenę"
     },
     "mobileMenu": {
-      "open": "Open menu",
-      "close": "Close menu"
+      "open": "Otwórz menu",
+      "close": "Zamknij menu"
     }
   },
   "languageSwitcher": {
-    "label": "Language",
-    "english": "English",
-    "romanian": "Romana",
-    "arabic": "العربية"
+    "label": "Język",
+    "english": "Angielski",
+    "romanian": "Rumuński",
+    "arabic": "Arabski"
   }
 }

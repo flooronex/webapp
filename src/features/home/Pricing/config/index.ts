@@ -3,7 +3,7 @@ import { PricingPlan, Testimonial, PricingLabels } from "../types";
 export const testimonials: Testimonial[] = [
     {
         id: 1,
-        name: "Michael Johnson",
+        name: "Michael Doe",
         designation: "Frontend Developer",
         image: "/assets/images/avatar/person/person.png",
     },
@@ -31,7 +31,7 @@ export const getPlans = (t: (key: string) => string): PricingPlan[] => [
     {
         name: t("plans.components.name"),
         description: t("plans.components.description"),
-        price: 29,
+        price: 59,
         priceLabel: t("plans.components.priceLabel"),
         socialProof: t("plans.components.socialProof"),
         featuresTitle: t("plans.components.featuresTitle"),
@@ -81,7 +81,7 @@ export const getPlans = (t: (key: string) => string): PricingPlan[] => [
     {
         name: t("plans.templates.name"),
         description: t("plans.templates.description"),
-        price: 79,
+        price: 159,
         priceLabel: t("plans.templates.priceLabel"),
         socialProof: t("plans.templates.socialProof"),
         featuresTitle: t("plans.templates.featuresTitle"),
@@ -143,7 +143,7 @@ export const getPlans = (t: (key: string) => string): PricingPlan[] => [
     {
         name: t("plans.enterprise.name"),
         description: t("plans.enterprise.description"),
-        price: 299,
+        price: 399,
         priceLabel: t("plans.enterprise.priceLabel"),
         socialProof: t("plans.enterprise.socialProof"),
         featuresTitle: t("plans.enterprise.featuresTitle"),

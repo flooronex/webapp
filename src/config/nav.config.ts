@@ -37,6 +37,10 @@ export const navConfig: NavItem[] = [
         title: "Contact",
         href: "#contact",
     },
+    {
+        title: "About Us",
+        href: "/about",
+    },
 ];
 
 export const footerConfig = {

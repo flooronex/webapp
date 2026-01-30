@@ -1,480 +1,480 @@
 {
   "hero": {
     "title": {
-      "line1": "Find trusted flooring",
-      "line2": "professionals in minutes."
+      "line1": "Găsiți specialiști de încredere",
+      "line2": "în domeniul pardoselilor în minute."
     },
-    "description": "FloorOneX helps homeowners and businesses connect with verified flooring installers. Request quotes, compare offers, and manage your flooring project from start to finish.",
+    "description": "FloorOneX ajută proprietarii de case și întreprinderi să se conecteze cu instalatori de pardoseli verificați. Solicitați oferte, comparați propuneri și gestionați proiectul de pardoseală de la început până la sfârșit.",
     "cta": {
-      "getStarted": "Get Started",
-      "learnMore": "Learn More"
+      "getStarted": "Începeți Acum",
+      "learnMore": "Aflați mai mult"
     }
   },
   "dashboard": {
-    "title": "FloorOneX Dashboard",
-    "description": "Manage quotes, jobs, and flooring professionals in one place",
-    "search": "Search jobs, quotes, or providers...",
+    "title": "Tabloul de Bord FloorOneX",
+    "description": "Gestionați oferte, lucrări și specialiști în domeniul pardoselilor într-un singur loc",
+    "search": "Căutați lucrări, oferte sau furnizori...",
     "user": {
-      "name": "John Smith",
-      "email": "john@flooronex.com",
-      "initials": "JS"
+      "name": "Ion Popescu",
+      "email": "ion@flooronex.com",
+      "initials": "IP"
     },
     "menu": {
-      "profile": "Profile",
-      "messages": "Messages",
-      "settings": "Settings",
-      "logout": "Logout"
+      "profile": "Profil",
+      "messages": "Mesaje",
+      "settings": "Setări",
+      "logout": "Deconectare"
     },
     "sidebar": {
       "sections": {
-        "main": "Main",
+        "main": "Principal",
         "management": "Management",
-        "resources": "Resources"
+        "resources": "Resurse"
       },
       "items": {
-        "overview": "Overview",
-        "projects": "My Jobs",
-        "deployments": "Quotes",
-        "notifications": "Notifications",
-        "team": "Providers",
-        "settings": "Settings",
-        "documentation": "Help Center",
-        "support": "Support",
-        "changelog": "Updates"
+        "overview": "Prezentare generală",
+        "projects": "Lucrările mele",
+        "deployments": "Oferte",
+        "notifications": "Notificări",
+        "team": "Furnizori",
+        "settings": "Setări",
+        "documentation": "Centru de ajutor",
+        "support": "Suport",
+        "changelog": "Actualizări"
       }
     },
     "main": {
-      "recentDeployments": "Recent Jobs",
-      "newDeployment": "Request New Quote",
+      "recentDeployments": "Lucrări recente",
+      "newDeployment": "Solicitați o nouă ofertă",
       "kpi": {
-        "totalDeployments": "Total Jobs",
-        "successfulDeployments": "Completed Jobs",
-        "failedDeployments": "Cancelled Jobs",
-        "averageDeployTime": "Average Completion Time",
-        "uptime": "Platform Availability"
+        "totalDeployments": "Lucrări totale",
+        "successfulDeployments": "Lucrări finalizate",
+        "failedDeployments": "Lucrări anulate",
+        "averageDeployTime": "Timp mediu de finalizare",
+        "uptime": "Disponibilitatea platformei"
       },
       "table": {
-        "name": "Job Name",
-        "status": "Status",
-        "lastDeployed": "Last Updated",
-        "environment": "Location",
-        "version": "Assigned Provider",
-        "actions": "Actions",
-        "viewDetails": "View Details",
-        "edit": "Edit",
-        "delete": "Cancel"
+        "name": "Denumirea lucrării",
+        "status": "Stare",
+        "lastDeployed": "Ultima actualizare",
+        "environment": "Locație",
+        "version": "Furnizor atribuit",
+        "actions": "Acțiuni",
+        "viewDetails": "Văzuți detalii",
+        "edit": "Editare",
+        "delete": "Anulare"
       },
       "statuses": {
-        "ready": "Scheduled",
-        "process": "In Progress",
-        "error": "Issue"
+        "ready": "Programat",
+        "process": "În curs",
+        "error": "Problemă"
       },
       "projects": {
-        "mainWebsite": "Residential Flooring",
-        "apiGateway": "Commercial Flooring",
-        "analyticsService": "Laminate Installation",
-        "paymentApi": "Wood Flooring",
-        "authService": "LVT & Vinyl",
-        "backupService": "Carpet Installation"
+        "mainWebsite": "Pardoseli rezidențiale",
+        "apiGateway": "Pardoseli comerciale",
+        "analyticsService": "Instalare laminat",
+        "paymentApi": "Pardoseli din lemn",
+        "authService": "LVT & Vinil",
+        "backupService": "Instalare covoar"
       },
       "descriptions": {
-        "mainWebsite": "Home flooring installation projects",
-        "apiGateway": "Office and commercial flooring projects",
-        "analyticsService": "Laminate flooring supply and fitting",
-        "paymentApi": "Engineered and solid wood flooring",
-        "authService": "Luxury vinyl tile installation services",
-        "backupService": "Carpet fitting and replacement services"
+        "mainWebsite": "Proiecte de instalare a pardoselilor pentru locuințe",
+        "apiGateway": "Proiecte de pardoseli pentru birouri și spații comerciale",
+        "analyticsService": "Aprovizionare și montare pardoseli laminat",
+        "paymentApi": "Pardoseli din lemn masiv și inginerie",
+        "authService": "Servicii de instalare plăci vinil de lux",
+        "backupService": "Servicii de montare și înlocuire covoar"
       }
     }
   },
   "whyChooseUs": {
-    "badge": "Why FloorOneX",
-    "title": "Why Choose FloorOneX?",
-    "description": "We simplify flooring projects by connecting customers with trusted professionals through a transparent and easy-to-use platform.",
+    "badge": "De ce FloorOneX",
+    "title": "De ce să alegeți FloorOneX?",
+    "description": "Simplificăm proiectele de pardoseli prin conectarea clienților cu profesioniști de încredere printr-o platformă transparentă și ușor de utilizat.",
     "items": {
       "lightningFast": {
-        "title": "Fast Quotes",
-        "description": "Receive multiple quotes from verified flooring professionals in a short time."
+        "title": "Oferte rapide",
+        "description": "Primiți mai multe oferte de la specialiști verificați în domeniul pardoselilor în scurt timp."
       },
       "modular": {
-        "title": "Verified Installers",
-        "description": "All providers are vetted to ensure quality, reliability, and professionalism."
+        "title": "Instalatori verificați",
+        "description": "Toți furnizorii sunt controlați pentru a asigura calitate, fiabilitate și profesionalism."
       },
       "responsive": {
-        "title": "All-in-One Platform",
-        "description": "Manage quotes, communication, and payments in one single place."
+        "title": "Platformă All-in-One",
+        "description": "Gestionați oferte, comunicare și plăți într-un singur loc."
       },
       "performance": {
-        "title": "Transparent Pricing",
-        "description": "Compare offers clearly with no hidden fees or surprises."
+        "title": "Prețuri transparente",
+        "description": "Comparați ofertele clar, fără taxe ascunse sau surprize."
       }
     },
     "buttons": {
-      "exploreTemplates": "Find Installers",
-      "requestCustom": "Request a Quote"
+      "exploreTemplates": "Găsiți instalatori",
+      "requestCustom": "Solicitați o ofertă"
     },
-    "performanceLabel": "Trust & Quality"
+    "performanceLabel": "Încredere și calitate"
   },
   "features": {
-    "title": "Platform Features",
-    "description": "Everything you need to plan, book, and manage flooring projects",
+    "title": "Caracteristici ale platformei",
+    "description": "Tot ce aveți nevoie pentru a planifica, rezerva și gestiona proiecte de pardoseli",
     "performanceMetrics": {
-      "title": "Project Insights",
-      "description": "Monitor progress, quality, and performance of your flooring jobs.",
+      "title": "Insight-uri asupra proiectelor",
+      "description": "Monitorizați progresul, calitatea și performanța lucrărilor dumneavoastră de pardoseli.",
       "metrics": {
         "performance": {
-          "title": "Completion Rate",
-          "description": "Successfully completed projects"
+          "title": "Rata de finalizare",
+          "description": "Proiecte finalizate cu succes"
         },
         "accessibility": {
-          "title": "Availability",
-          "description": "Installer availability in your area"
+          "title": "Disponibilitate",
+          "description": "Disponibilitatea instalatorilor în zona dumneavoastră"
         },
         "bestPractices": {
-          "title": "Quality Standards",
-          "description": "Compliance with industry best practices"
+          "title": "Standarde de calitate",
+          "description": "Conformitate cu cele mai bune practici din industrie"
         },
         "seo": {
-          "title": "Regional Coverage",
-          "description": "Service coverage across cities and regions"
+          "title": "Acoperire regională",
+          "description": "Acoperire servicii în mai multe orașe și regiuni"
         }
       },
       "tabs": {
-        "performance": "Completion",
-        "accessibility": "Availability",
-        "bestPractices": "Quality",
-        "seo": "Coverage"
+        "performance": "Finalizare",
+        "accessibility": "Disponibilitate",
+        "bestPractices": "Calitate",
+        "seo": "Acoperire"
       },
       "details": {
         "performance": {
-          "fcp": "First Contact Time",
-          "lcp": "Job Completion Time",
-          "tbt": "Response Delay",
-          "cls": "Schedule Accuracy",
-          "si": "Service Index"
+          "fcp": "Timp primul contact",
+          "lcp": "Timp finalizare lucrare",
+          "tbt": "Întârziere răspuns",
+          "cls": "Acuratețe programare",
+          "si": "Index servicii"
         },
         "accessibility": {
-          "colorContrast": "Local Providers",
-          "ariaAttributes": "Verified Profiles",
-          "keyboardNav": "Easy Booking",
-          "labelsAlt": "Clear Job Details",
-          "focusIndicators": "Customer Support"
+          "colorContrast": "Furnizori locali",
+          "ariaAttributes": "Profiluri verificate",
+          "keyboardNav": "Rezervare ușoară",
+          "labelsAlt": "Detalii lucrare clare",
+          "focusIndicators": "Suport clienti"
         },
         "bestPractices": {
-          "https": "Secure Payments",
-          "jsErrors": "Issue Reporting",
-          "imageRatio": "Photo Proof",
-          "deprecatedApis": "Outdated Listings",
-          "browserSupport": "Device Compatibility"
+          "https": "Plăți sigure",
+          "jsErrors": "Raportare probleme",
+          "imageRatio": "Dovezi foto",
+          "deprecatedApis": "Anunțuri depășite",
+          "browserSupport": "Compatibilitate dispozitive"
         },
         "seo": {
-          "metaDescription": "Local Search Visibility",
-          "crawlableLinks": "Service Listings",
-          "fontSizes": "Readable Content",
-          "searchFriendly": "Easy Discovery",
-          "mobileOptimized": "Mobile Optimized"
+          "metaDescription": "Vizibilitate în căutări locale",
+          "crawlableLinks": "Listări servicii",
+          "fontSizes": "Conținut citibil",
+          "searchFriendly": "Descoperire ușoară",
+          "mobileOptimized": "Optimizat pentru mobil"
         }
       },
       "values": {
-        "pass": "Pass",
-        "yes": "Yes",
-        "none": "None",
-        "correct": "Correct",
+        "pass": "Promovat",
+        "yes": "Da",
+        "none": "Niciuna",
+        "correct": "Corect",
         "modern": "Modern"
       },
       "status": {
-        "analyzing": "Loading...",
-        "complete": "Data Ready",
-        "performanceMetrics": "Job Metrics",
-        "accessibilityMetrics": "Provider Metrics",
-        "bestPracticesMetrics": "Quality Metrics",
-        "seoMetrics": "Coverage Metrics"
+        "analyzing": "Se încarcă...",
+        "complete": "Date disponibile",
+        "performanceMetrics": "Metrici lucrări",
+        "accessibilityMetrics": "Metrici furnizori",
+        "bestPracticesMetrics": "Metrici calitate",
+        "seoMetrics": "Metrici acoperire"
       }
     },
     "oneClickDeployment": {
-      "title": "Easy Job Booking",
-      "description": "Request, confirm, and start your flooring project with minimal steps.",
-      "footer": "Project Workflow",
+      "title": "Rezervare ușoară de lucrare",
+      "description": "Solicitați, confirmați și începeți proiectul de pardoseală cu pași minimi.",
+      "footer": "Flux de lucru al proiectului",
       "stages": {
-        "preparing": "Request",
-        "building": "Quote",
-        "deploying": "Installation",
-        "success": "Completed"
+        "preparing": "Solicitare",
+        "building": "Ofertă",
+        "deploying": "Instalare",
+        "success": "Completat"
       },
       "terminal": {
         "commands": {
-          "preparing": "Submit project details",
-          "building": "Receive quotes",
-          "deploying": "Schedule installation",
-          "success": "✔ Project completed successfully",
-          "reset": "Preparing next project..."
+          "preparing": "Încarcare detalii proiect",
+          "building": "Primire oferte",
+          "deploying": "Programare instalare",
+          "success": "✔ Proiect finalizat cu succes",
+          "reset": "Pregătire proiect următor..."
         },
         "outputs": {
-          "checkingDependencies": "Validating details...",
-          "initializingEnvironment": "Contacting providers...",
-          "bundlingAssets": "Comparing offers...",
-          "optimizingCode": "Scheduling work...",
-          "uploadingToCdn": "Confirming availability...",
-          "settingUpRouting": "Finalizing project..."
+          "checkingDependencies": "Validare detalii...",
+          "initializingEnvironment": "Contactare furnizori...",
+          "bundlingAssets": "Comparare oferte...",
+          "optimizingCode": "Programare lucrări...",
+          "uploadingToCdn": "Confirmă disponibilitate...",
+          "settingUpRouting": "Finalizare proiect..."
         },
         "success": {
-          "deploymentComplete": "Project completed",
-          "urlLabel": "Reference ID"
+          "deploymentComplete": "Proiect completat",
+          "urlLabel": "ID referință"
         }
       }
     },
     "fileStructure": {
-      "title": "Organized Project Flow",
-      "description": "Each flooring project follows a clear and structured workflow.",
-      "explorer": "Project Flow",
+      "title": "Flux de lucru organizat",
+      "description": "Fiecare proiect de pardoseală urmează un flux de lucru clar și structurat.",
+      "explorer": "Flux de lucru",
       "projectName": "flooring-project",
-      "footerLeft": "Clear Steps",
-      "footerRight": "Fully Managed"
+      "footerLeft": "Pași clari",
+      "footerRight": "Complet gestionat"
     },
     "scalableEnvironments": {
-      "title": "Scalable Platform",
-      "description": "FloorOneX scales automatically as demand and projects grow.",
-      "resourceUsage": "Platform Usage (24h)",
-      "activeServers": "Active Providers",
-      "footerLeft": "Nationwide Network",
-      "footerRight": "Handles Any Volume",
-      "loading": "Loading..."
+      "title": "Platformă scalabilă",
+      "description": "FloorOneX se scalează automat odată cu creșterea cererii și a proiectelor.",
+      "resourceUsage": "Utilizarea platformei (24h)",
+      "activeServers": "Furnizori activi",
+      "footerLeft": "Rețea națională",
+      "footerRight": "Gestionează orice volum",
+      "loading": "Se încarcă..."
     },
     "globalDeployments": {
-      "title": "Nationwide Coverage",
-      "description": "Access flooring professionals across multiple cities and regions.",
-      "liveStatus": "Live Status",
-      "deployments": "projects",
-      "uptime": "availability",
-      "regions": "regions",
-      "footerLeft": "UK Coverage",
-      "footerRight": "Growing Network"
+      "title": "Acoperire națională",
+      "description": "Accesați specialiști în pardoseli din mai multe orașe și regiuni.",
+      "liveStatus": "Stare live",
+      "deployments": "proiecte",
+      "uptime": "disponibilitate",
+      "regions": "regiuni",
+      "footerLeft": "Acoperire națională",
+      "footerRight": "Rețea în creștere"
     }
   },
   "templates": {
-    "sectionTitle": "Flooring Services",
-    "sectionDescription": "Browse flooring services offered by trusted professionals.",
-    "viewAll": "View All Services",
-    "preview": "Preview",
-    "useTemplate": "Request Quote",
-    "loadMore": "Load More",
-    "browseAll": "Browse All Services"
+    "sectionTitle": "Servicii de pardoseli",
+    "sectionDescription": "Răsfoi serviciile de pardoseli oferite de profesioniști de încredere.",
+    "viewAll": "Văzuți toate serviciile",
+    "preview": "Previzualizare",
+    "useTemplate": "Solicitați o ofertă",
+    "loadMore": "Încarcă mai mult",
+    "browseAll": "Răsfoi toate serviciile"
   },
   "responsiveTemplates": {
-    "title": "Accessible on Any Device",
-    "description": "Use FloorOneX seamlessly on mobile, tablet, or desktop.",
-    "ctaButton": "Explore Services",
+    "title": "Accesibil pe orice dispozitiv",
+    "description": "Utilizați FloorOneX fără probleme pe mobil, tablă sau desktop.",
+    "ctaButton": "Explorați serviciile",
     "features": {
-      "adaptsToScreenSize": "Adapts to all screen sizes",
-      "touchFriendly": "Touch-friendly interface",
-      "optimizedOrientation": "Supports portrait and landscape"
+      "adaptsToScreenSize": "Se adaptează la toate mărimile de ecran",
+      "touchFriendly": "Interfață tactilă",
+      "optimizedOrientation": "Suportă portret și peisaj"
     }
   },
   "pricing": {
-    "badge": "Fair & Transparent",
-    "title": "Simple Pricing",
-    "description": "Customers use the platform for free. Providers pay only when they win jobs.",
+    "badge": "Echitabil și transparent",
+    "title": "Prețuri simple",
+    "description": "Clienții folosesc platforma gratuit. Furnizorii plătesc doar când câștigă lucrări.",
     "filter": {
-      "allFeatures": "All Features",
-      "showButton": "Show feature categories",
-      "hideButton": "Hide feature categories",
+      "allFeatures": "Toate caracteristicile",
+      "showButton": "Afișați categorii caracteristici",
+      "hideButton": "Ascundeți categorii caracteristici",
       "categories": {
-        "core": "Core",
-        "support": "Support",
-        "customization": "Customization",
-        "license": "Usage"
+        "core": "Esențial",
+        "support": "Suport",
+        "customization": "Personalizare",
+        "license": "Utilizare"
       }
     },
     "plans": {
       "components": {
-        "name": "Customer",
-        "description": "Request quotes and manage flooring projects",
-        "price": "Free",
-        "priceLabel": "no cost",
-        "socialProof": "Used by thousands of homeowners",
-        "featuresTitle": "Includes:",
-        "cta": "Get Started",
+        "name": "Client",
+        "description": "Solicitați oferte și gestionați proiecte de pardoseli",
+        "price": "Gratuit",
+        "priceLabel": "fără cost",
+        "socialProof": "Utilizat de mii de proprietari de case",
+        "featuresTitle": "Include:",
+        "cta": "Începeți acum",
         "features": {
-          "access": "Unlimited quote requests",
-          "updates": "Real-time updates",
-          "support": "Customer support",
-          "license": "Personal use",
-          "downloads": "Project documents",
-          "code": "Secure payments",
-          "tailwind": "Verified installers",
-          "documentation": "Help center access"
+          "access": "Solicitări de oferte nelimitate",
+          "updates": "Actualizări în timp real",
+          "support": "Suport clienti",
+          "license": "Uz personal",
+          "downloads": "Documente proiect",
+          "code": "Plăți sigure",
+          "tailwind": "Instalatori verificați",
+          "documentation": "Acces centru ajutor"
         },
         "tooltips": {
-          "license": "For personal and business flooring projects",
-          "code": "Payments are held securely until job completion"
+          "license": "Pentru proiecte de pardoseli personale și comerciale",
+          "code": "Plăturile se ține în siguranță până la finalizarea lucrării"
         }
       },
       "templates": {
-        "name": "Service Provider",
-        "description": "Grow your flooring business",
-        "price": "Commission-based",
-        "priceLabel": "per job",
-        "socialProof": "Trusted by professionals",
-        "featuresTitle": "Includes:",
-        "cta": "Join as Provider",
+        "name": "Furnizor de servicii",
+        "description": "Creșteți afacerea de pardoseli",
+        "price": "Pe bază de comision",
+        "priceLabel": "per lucrare",
+        "socialProof": "De încredere pentru profesioniști",
+        "featuresTitle": "Include:",
+        "cta": "Alăturați-vă ca furnizor",
         "features": {
-          "components": "Job leads",
-          "templates": "Public profile listing",
-          "updates": "Instant notifications",
-          "support": "Priority support",
-          "license": "Commercial use",
-          "downloads": "Job documentation",
-          "frameworks": "Business tools",
-          "figma": "Portfolio gallery",
-          "examples": "Customer reviews",
-          "customization": "Profile customization"
+          "components": "Potențiali clienți",
+          "templates": "Listare profil public",
+          "updates": "Notificări instantanee",
+          "support": "Suport prioritar",
+          "license": "Uz comercial",
+          "downloads": "Documente lucrare",
+          "frameworks": "Instrumente business",
+          "figma": "Galerie portofoliu",
+          "examples": "Recenzii clienți",
+          "customization": "Personalizare profil"
         },
         "tooltips": {
-          "license": "Use FloorOneX to acquire unlimited clients",
-          "frameworks": "Optimized for mobile and desktop"
+          "license": "Utilizați FloorOneX pentru a dobândi clienți nelimitați",
+          "frameworks": "Optimizat pentru mobil și desktop"
         }
       },
       "enterprise": {
-        "name": "Enterprise",
-        "description": "For large flooring companies and chains",
-        "price": "Custom",
-        "priceLabel": "tailored",
-        "socialProof": "Used by large teams",
-        "featuresTitle": "Includes:",
-        "cta": "Contact Sales",
+        "name": "Întreprindere",
+        "description": "Pentru mari companii și lanțuri de pardoseli",
+        "price": "Personalizat",
+        "priceLabel": "adaptat",
+        "socialProof": "Utilizat de mari echipe",
+        "featuresTitle": "Include:",
+        "cta": "Contactați vânzări",
         "features": {
-          "everything": "Everything in Provider plan",
-          "support": "Dedicated account manager",
-          "training": "Team onboarding",
-          "consulting": "Business consulting",
-          "customComponents": "Custom integrations",
-          "earlyAccess": "Early feature access",
-          "license": "Multi-team license",
-          "integration": "System integrations",
-          "priority": "Priority visibility",
-          "sla": "Service level agreement"
+          "everything": "Tot din planul furnizorului",
+          "support": "Manager de cont dedicat",
+          "training": "Integrare echipă",
+          "consulting": "Consultanță business",
+          "customComponents": "Integrări personalizate",
+          "earlyAccess": "Acces timpuriu caracteristici",
+          "license": "Licență multi-echipă",
+          "integration": "Integrări sisteme",
+          "priority": "Vizibilitate prioritară",
+          "sla": "Acord nivel serviciu"
         },
         "tooltips": {
-          "consulting": "Personalized business consulting",
-          "customComponents": "Custom features on request"
+          "consulting": "Consultanță business personalizată",
+          "customComponents": "Caracteristici personalizate la cerere"
         }
       }
     },
     "testimonials": {
-      "title": "Trusted by Customers & Professionals",
-      "description": "Thousands of users rely on FloorOneX for their flooring projects.",
-      "author": "Michael Brown",
-      "role": "Flooring Contractor",
-      "quote": "\"FloorOneX helped us win more clients and manage projects more efficiently. It's a game changer.\"",
+      "title": "De încredere pentru clienți și profesioniști",
+      "description": "Mii de utilizatori se bazează pe FloorOneX pentru proiectele lor de pardoseli.",
+      "author": "Mihai Pop",
+      "role": "Contractant pardoseli",
+      "quote": "\"FloorOneX ne-a ajutat să câștigăm mai mulți clienți și să gestionez proiectele mai eficient. Este un game changer.\"",
       "stats": {
-        "developers": "5,000+",
-        "developersLabel": "Users",
+        "developers": "5.000+",
+        "developersLabel": "Utilizatori",
         "satisfaction": "97%",
-        "satisfactionLabel": "Satisfaction",
-        "components": "1,000+",
-        "componentsLabel": "Projects",
+        "satisfactionLabel": "Satisfacție",
+        "components": "1.000+",
+        "componentsLabel": "Proiecte",
         "support": "24/7",
-        "supportLabel": "Support"
+        "supportLabel": "Suport"
       }
     },
     "footer": {
-      "title": "Need more details?",
-      "description": "Contact our team for partnerships or enterprise solutions.",
-      "cta": "Contact Us"
+      "title": "Aveți nevoie de mai multe detalii?",
+      "description": "Contactați echipa noastră pentru parteneriate sau soluții enterprise.",
+      "cta": "Contactați-ne"
     },
     "modal": {
-      "title": "Coming Soon",
-      "description": "This feature is under development and will be available shortly.",
-      "cta": "Contact Us",
-      "continue": "Continue Browsing"
+      "title": "În curând",
+      "description": "Această caracteristică este în curs de dezvoltare și va fi disponibilă în curând.",
+      "cta": "Contactați-ne",
+      "continue": "Continuați să răsfoi"
     }
   },
   "faq": {
-    "badge": "FAQ",
-    "title": "Questions & Answers",
-    "description": "Everything you need to know about FloorOneX",
-    "searchPlaceholder": "Search questions...",
+    "badge": "ÎNTREBĂRI FRECVENTE",
+    "title": "Întrebări și răspunsuri",
+    "description": "Tot ce trebuie să știți despre FloorOneX",
+    "searchPlaceholder": "Căutați întrebări...",
     "categories": {
-      "all": "All",
-      "templates": "Customers",
-      "components": "Providers",
-      "licensing": "Payments",
-      "support": "Support"
+      "all": "Tot",
+      "templates": "Clienți",
+      "components": "Furnizori",
+      "licensing": "Plăți",
+      "support": "Suport"
     },
-    "noResults": "No matching questions found.",
-    "showMore": "Show More Questions",
-    "showLess": "Show Less Questions",
+    "noResults": "Nu s-au găsit întrebări potrivite.",
+    "showMore": "Afișați mai multe întrebări",
+    "showLess": "Afișați mai puține întrebări",
     "items": {
       "download": {
-        "question": "How do I request a quote?",
-        "answer": "Create an account, submit your project details, and receive quotes from local professionals."
+        "question": "Cum solicit o ofertă?",
+        "answer": "Creați un cont, trimiteți detalii proiect și primiți oferte de la profesioniști locali."
       },
       "updates": {
-        "question": "Are providers verified?",
-        "answer": "Yes, all flooring professionals are vetted before joining the platform."
+        "question": "Sunt furnizorii verificați?",
+        "answer": "Da, toți specialiștii în pardoseli sunt verificați înainte de a se alătura platformei."
       },
       "clientProjects": {
-        "question": "Do I need to pay upfront?",
-        "answer": "Payments are released only after job milestones are completed."
+        "question": "Trebuie să plătesc în avans?",
+        "answer": "Plăturile se efectuează doar după finalizarea jaloanelor lucrării."
       },
       "framework": {
-        "question": "What flooring types are supported?",
-        "answer": "Wood, laminate, vinyl, LVT, carpet, and more."
+        "question": "Ce tipuri de pardoseli sunt acceptate?",
+        "answer": "Lemn, laminat, vinil, LVT, covoar și altele."
       },
       "support": {
-        "question": "Is support available?",
-        "answer": "Yes, support is available for both customers and providers."
+        "question": "Suportul este disponibil?",
+        "answer": "Da, suportul este disponibil pentru clienți și furnizori."
       },
       "custom": {
-        "question": "Can I request custom services?",
-        "answer": "Yes, you can request tailored flooring solutions from providers."
+        "question": "Pot solicita servicii personalizate?",
+        "answer": "Da, puteți solicita soluții de pardoseli adaptate de la furnizori."
       },
       "commercial": {
-        "question": "How does the provider commission work?",
-        "answer": "Providers pay a commission only when they successfully complete a job."
+        "question": "Cum funcționează comisionul furnizorului?",
+        "answer": "Furnizorii plătesc comision doar când finalizează cu succes o lucrare."
       },
       "responsive": {
-        "question": "Can I use FloorOneX on mobile?",
-        "answer": "Yes, the platform is fully responsive and works on all devices."
+        "question": "Pot folosi FloorOneX pe mobil?",
+        "answer": "Da, platforma este complet responsivă și funcționează pe toate dispozitivele."
       },
       "refund": {
-        "question": "What if I'm not satisfied?",
-        "answer": "Our support team will assist in resolving any issues with your project."
+        "question": "Ce se întâmplă dacă nu sunt mulțumit?",
+        "answer": "Echipa noastră de suport va ajuta la rezolvarea oricăror probleme cu proiectul."
       },
       "import": {
-        "question": "How do I get started?",
-        "answer": "Sign up, create your project or provider profile, and start using FloorOneX."
+        "question": "Cum încep?",
+        "answer": "Înregistrați-vă, creați profilul de proiect sau furnizor și începeți să folosiți FloorOneX."
       }
     }
   },
   "footer": {
-    "title": "Connecting Flooring Professionals Nationwide",
-    "description": "FloorOneX brings customers and flooring experts together across the UK.",
+    "title": "Conectarea specialiștilor în pardoseli în toată România",
+    "description": "FloorOneX reunește clienți și experți în pardoseli din toată țara.",
     "form": {
-      "name": "Full Name",
-      "namePlaceholder": "John Smith",
-      "email": "Email Address",
-      "emailPlaceholder": "your@email.com",
-      "message": "Your Message",
-      "messagePlaceholder": "How can we help?",
-      "submit": "Send Message",
-      "submitting": "Sending..."
+      "name": "Nume complet",
+      "namePlaceholder": "Ion Popescu",
+      "email": "Adresa de email",
+      "emailPlaceholder": "vostru@email.com",
+      "message": "Mesajul dvs.",
+      "messagePlaceholder": "Cum vă putem ajuta?",
+      "submit": "Trimiteți mesaj",
+      "submitting": "Se trimite..."
     },
     "captcha": {
-      "title": "Please verify you're not a robot:",
-      "error": "Captcha verification required",
-      "back": "Back",
-      "confirm": "Confirm & Send"
+      "title": "Vă rugăm să verificați că nu sunteți robot:",
+      "error": "Verificare captcha necesară",
+      "back": "Înapoi",
+      "confirm": "Confirmă și trimite"
     },
     "success": {
-      "title": "Message Sent",
-      "description": "Thank you for contacting us. We'll respond shortly.",
-      "button": "Send Another Message"
+      "title": "Mesaj trimis",
+      "description": "Mulțumim pentru contactare. Vom răspunde în curând.",
+      "button": "Trimiteți alt mesaj"
     },
     "errors": {
-      "name": "Name must be at least 2 characters",
-      "email": "Please enter a valid email address",
-      "message": "Message must be at least 5 characters"
+      "name": "Numele trebuie să aibă cel puțin 2 caractere",
+      "email": "Introduceți o adresă de email validă",
+      "message": "Mesajul trebuie să aibă cel puțin 5 caractere"
     }
   }
 }

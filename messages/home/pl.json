@@ -1,480 +1,480 @@
 {
   "hero": {
     "title": {
-      "line1": "Find trusted flooring",
-      "line2": "professionals in minutes."
+      "line1": "Znajdź zaufanych specjalistów",
+      "line2": "od podłóg w kilka minut."
     },
-    "description": "FloorOneX helps homeowners and businesses connect with verified flooring installers. Request quotes, compare offers, and manage your flooring project from start to finish.",
+    "description": "FloorOneX pomaga właścicielom domów i firmom połączyć się ze zweryfikowanymi monterami podłóg. Poproś o wyceny, porównuj oferty i zarządzaj projektem od początku do końca.",
     "cta": {
-      "getStarted": "Get Started",
-      "learnMore": "Learn More"
+      "getStarted": "Zacznij teraz",
+      "learnMore": "Dowiedz się więcej"
     }
   },
   "dashboard": {
-    "title": "FloorOneX Dashboard",
-    "description": "Manage quotes, jobs, and flooring professionals in one place",
-    "search": "Search jobs, quotes, or providers...",
+    "title": "Panel FloorOneX",
+    "description": "Zarządzaj wycenami, zleceniami i wykonawcami podłóg w jednym miejscu",
+    "search": "Szukaj zleceń, wycen lub wykonawców...",
     "user": {
-      "name": "John Smith",
-      "email": "john@flooronex.com",
-      "initials": "JS"
+      "name": "Jan Kowalski",
+      "email": "jan@flooronex.com",
+      "initials": "JK"
     },
     "menu": {
-      "profile": "Profile",
-      "messages": "Messages",
-      "settings": "Settings",
-      "logout": "Logout"
+      "profile": "Profil",
+      "messages": "Wiadomości",
+      "settings": "Ustawienia",
+      "logout": "Wyloguj"
     },
     "sidebar": {
       "sections": {
-        "main": "Main",
-        "management": "Management",
-        "resources": "Resources"
+        "main": "Główne",
+        "management": "Zarządzanie",
+        "resources": "Zasoby"
       },
       "items": {
-        "overview": "Overview",
-        "projects": "My Jobs",
-        "deployments": "Quotes",
-        "notifications": "Notifications",
-        "team": "Providers",
-        "settings": "Settings",
-        "documentation": "Help Center",
-        "support": "Support",
-        "changelog": "Updates"
+        "overview": "Przegląd",
+        "projects": "Moje zlecenia",
+        "deployments": "Wyceny",
+        "notifications": "Powiadomienia",
+        "team": "Wykonawcy",
+        "settings": "Ustawienia",
+        "documentation": "Centrum pomocy",
+        "support": "Wsparcie",
+        "changelog": "Aktualizacje"
       }
     },
     "main": {
-      "recentDeployments": "Recent Jobs",
-      "newDeployment": "Request New Quote",
+      "recentDeployments": "Ostatnie zlecenia",
+      "newDeployment": "Poproś o nową wycenę",
       "kpi": {
-        "totalDeployments": "Total Jobs",
-        "successfulDeployments": "Completed Jobs",
-        "failedDeployments": "Cancelled Jobs",
-        "averageDeployTime": "Average Completion Time",
-        "uptime": "Platform Availability"
+        "totalDeployments": "Łączna liczba zleceń",
+        "successfulDeployments": "Zlecenia ukończone",
+        "failedDeployments": "Zlecenia anulowane",
+        "averageDeployTime": "Średni czas realizacji",
+        "uptime": "Dostępność platformy"
       },
       "table": {
-        "name": "Job Name",
+        "name": "Nazwa zlecenia",
         "status": "Status",
-        "lastDeployed": "Last Updated",
-        "environment": "Location",
-        "version": "Assigned Provider",
-        "actions": "Actions",
-        "viewDetails": "View Details",
-        "edit": "Edit",
-        "delete": "Cancel"
+        "lastDeployed": "Ostatnia aktualizacja",
+        "environment": "Lokalizacja",
+        "version": "Przypisany wykonawca",
+        "actions": "Akcje",
+        "viewDetails": "Zobacz szczegóły",
+        "edit": "Edytuj",
+        "delete": "Anuluj"
       },
       "statuses": {
-        "ready": "Scheduled",
-        "process": "In Progress",
-        "error": "Issue"
+        "ready": "Zaplanowane",
+        "process": "W trakcie",
+        "error": "Problem"
       },
       "projects": {
-        "mainWebsite": "Residential Flooring",
-        "apiGateway": "Commercial Flooring",
-        "analyticsService": "Laminate Installation",
-        "paymentApi": "Wood Flooring",
-        "authService": "LVT & Vinyl",
-        "backupService": "Carpet Installation"
+        "mainWebsite": "Podłogi mieszkaniowe",
+        "apiGateway": "Podłogi komercyjne",
+        "analyticsService": "Montaż paneli laminowanych",
+        "paymentApi": "Podłogi drewniane",
+        "authService": "LVT i winyl",
+        "backupService": "Montaż wykładzin"
       },
       "descriptions": {
-        "mainWebsite": "Home flooring installation projects",
-        "apiGateway": "Office and commercial flooring projects",
-        "analyticsService": "Laminate flooring supply and fitting",
-        "paymentApi": "Engineered and solid wood flooring",
-        "authService": "Luxury vinyl tile installation services",
-        "backupService": "Carpet fitting and replacement services"
+        "mainWebsite": "Projekty montażu podłóg w domach",
+        "apiGateway": "Projekty podłóg biurowych i komercyjnych",
+        "analyticsService": "Dostawa i montaż paneli laminowanych",
+        "paymentApi": "Podłogi drewniane lite i warstwowe",
+        "authService": "Usługi montażu luksusowych płytek winylowych (LVT)",
+        "backupService": "Montaż i wymiana wykładzin"
       }
     }
   },
   "whyChooseUs": {
-    "badge": "Why FloorOneX",
-    "title": "Why Choose FloorOneX?",
-    "description": "We simplify flooring projects by connecting customers with trusted professionals through a transparent and easy-to-use platform.",
+    "badge": "Dlaczego FloorOneX",
+    "title": "Dlaczego warto wybrać FloorOneX?",
+    "description": "Upraszczamy projekty podłóg, łącząc klientów z zaufanymi fachowcami poprzez przejrzystą i łatwą w użyciu platformę.",
     "items": {
       "lightningFast": {
-        "title": "Fast Quotes",
-        "description": "Receive multiple quotes from verified flooring professionals in a short time."
+        "title": "Szybkie wyceny",
+        "description": "Otrzymuj wiele wycen od zweryfikowanych wykonawców podłóg w krótkim czasie."
       },
       "modular": {
-        "title": "Verified Installers",
-        "description": "All providers are vetted to ensure quality, reliability, and professionalism."
+        "title": "Zweryfikowani monterzy",
+        "description": "Wszyscy wykonawcy są sprawdzani pod kątem jakości, rzetelności i profesjonalizmu."
       },
       "responsive": {
-        "title": "All-in-One Platform",
-        "description": "Manage quotes, communication, and payments in one single place."
+        "title": "Platforma typu all-in-one",
+        "description": "Zarządzaj wycenami, komunikacją i płatnościami w jednym miejscu."
       },
       "performance": {
-        "title": "Transparent Pricing",
-        "description": "Compare offers clearly with no hidden fees or surprises."
+        "title": "Przejrzyste ceny",
+        "description": "Porównuj oferty jasno — bez ukrytych opłat i niespodzianek."
       }
     },
     "buttons": {
-      "exploreTemplates": "Find Installers",
-      "requestCustom": "Request a Quote"
+      "exploreTemplates": "Znajdź wykonawców",
+      "requestCustom": "Poproś o wycenę"
     },
-    "performanceLabel": "Trust & Quality"
+    "performanceLabel": "Zaufanie i jakość"
   },
   "features": {
-    "title": "Platform Features",
-    "description": "Everything you need to plan, book, and manage flooring projects",
+    "title": "Funkcje platformy",
+    "description": "Wszystko, czego potrzebujesz, aby planować, rezerwować i zarządzać projektami podłóg",
     "performanceMetrics": {
-      "title": "Project Insights",
-      "description": "Monitor progress, quality, and performance of your flooring jobs.",
+      "title": "Wgląd w projekt",
+      "description": "Monitoruj postęp, jakość i efektywność Twoich zleceń podłogowych.",
       "metrics": {
         "performance": {
-          "title": "Completion Rate",
-          "description": "Successfully completed projects"
+          "title": "Wskaźnik ukończeń",
+          "description": "Pomyślnie ukończone projekty"
         },
         "accessibility": {
-          "title": "Availability",
-          "description": "Installer availability in your area"
+          "title": "Dostępność",
+          "description": "Dostępność wykonawców w Twojej okolicy"
         },
         "bestPractices": {
-          "title": "Quality Standards",
-          "description": "Compliance with industry best practices"
+          "title": "Standardy jakości",
+          "description": "Zgodność z najlepszymi praktykami branżowymi"
         },
         "seo": {
-          "title": "Regional Coverage",
-          "description": "Service coverage across cities and regions"
+          "title": "Zasięg regionalny",
+          "description": "Obsługa miast i regionów"
         }
       },
       "tabs": {
-        "performance": "Completion",
-        "accessibility": "Availability",
-        "bestPractices": "Quality",
-        "seo": "Coverage"
+        "performance": "Realizacja",
+        "accessibility": "Dostępność",
+        "bestPractices": "Jakość",
+        "seo": "Zasięg"
       },
       "details": {
         "performance": {
-          "fcp": "First Contact Time",
-          "lcp": "Job Completion Time",
-          "tbt": "Response Delay",
-          "cls": "Schedule Accuracy",
-          "si": "Service Index"
+          "fcp": "Czas pierwszego kontaktu",
+          "lcp": "Czas ukończenia zlecenia",
+          "tbt": "Opóźnienie odpowiedzi",
+          "cls": "Dokładność harmonogramu",
+          "si": "Indeks usług"
         },
         "accessibility": {
-          "colorContrast": "Local Providers",
-          "ariaAttributes": "Verified Profiles",
-          "keyboardNav": "Easy Booking",
-          "labelsAlt": "Clear Job Details",
-          "focusIndicators": "Customer Support"
+          "colorContrast": "Lokalni wykonawcy",
+          "ariaAttributes": "Zweryfikowane profile",
+          "keyboardNav": "Łatwa rezerwacja",
+          "labelsAlt": "Jasne szczegóły zlecenia",
+          "focusIndicators": "Obsługa klienta"
         },
         "bestPractices": {
-          "https": "Secure Payments",
-          "jsErrors": "Issue Reporting",
-          "imageRatio": "Photo Proof",
-          "deprecatedApis": "Outdated Listings",
-          "browserSupport": "Device Compatibility"
+          "https": "Bezpieczne płatności",
+          "jsErrors": "Zgłaszanie problemów",
+          "imageRatio": "Dokumentacja zdjęciowa",
+          "deprecatedApis": "Nieaktualne oferty",
+          "browserSupport": "Kompatybilność urządzeń"
         },
         "seo": {
-          "metaDescription": "Local Search Visibility",
-          "crawlableLinks": "Service Listings",
-          "fontSizes": "Readable Content",
-          "searchFriendly": "Easy Discovery",
-          "mobileOptimized": "Mobile Optimized"
+          "metaDescription": "Widoczność w wyszukiwaniach lokalnych",
+          "crawlableLinks": "Oferty usług",
+          "fontSizes": "Czytelna treść",
+          "searchFriendly": "Łatwe wyszukiwanie",
+          "mobileOptimized": "Optymalizacja mobilna"
         }
       },
       "values": {
-        "pass": "Pass",
-        "yes": "Yes",
-        "none": "None",
-        "correct": "Correct",
-        "modern": "Modern"
+        "pass": "OK",
+        "yes": "Tak",
+        "none": "Brak",
+        "correct": "Poprawne",
+        "modern": "Nowoczesne"
       },
       "status": {
-        "analyzing": "Loading...",
-        "complete": "Data Ready",
-        "performanceMetrics": "Job Metrics",
-        "accessibilityMetrics": "Provider Metrics",
-        "bestPracticesMetrics": "Quality Metrics",
-        "seoMetrics": "Coverage Metrics"
+        "analyzing": "Ładowanie...",
+        "complete": "Dane gotowe",
+        "performanceMetrics": "Metryki zleceń",
+        "accessibilityMetrics": "Metryki wykonawców",
+        "bestPracticesMetrics": "Metryki jakości",
+        "seoMetrics": "Metryki zasięgu"
       }
     },
     "oneClickDeployment": {
-      "title": "Easy Job Booking",
-      "description": "Request, confirm, and start your flooring project with minimal steps.",
-      "footer": "Project Workflow",
+      "title": "Łatwa rezerwacja zlecenia",
+      "description": "Zgłoś, potwierdź i rozpocznij projekt podłogi w kilku prostych krokach.",
+      "footer": "Przebieg projektu",
       "stages": {
-        "preparing": "Request",
-        "building": "Quote",
-        "deploying": "Installation",
-        "success": "Completed"
+        "preparing": "Zgłoszenie",
+        "building": "Wycena",
+        "deploying": "Montaż",
+        "success": "Ukończone"
       },
       "terminal": {
         "commands": {
-          "preparing": "Submit project details",
-          "building": "Receive quotes",
-          "deploying": "Schedule installation",
-          "success": "✔ Project completed successfully",
-          "reset": "Preparing next project..."
+          "preparing": "Wyślij szczegóły projektu",
+          "building": "Otrzymaj wyceny",
+          "deploying": "Zaplanuj montaż",
+          "success": "✔ Projekt ukończony pomyślnie",
+          "reset": "Przygotowanie kolejnego projektu..."
         },
         "outputs": {
-          "checkingDependencies": "Validating details...",
-          "initializingEnvironment": "Contacting providers...",
-          "bundlingAssets": "Comparing offers...",
-          "optimizingCode": "Scheduling work...",
-          "uploadingToCdn": "Confirming availability...",
-          "settingUpRouting": "Finalizing project..."
+          "checkingDependencies": "Weryfikacja szczegółów...",
+          "initializingEnvironment": "Kontaktowanie wykonawców...",
+          "bundlingAssets": "Porównywanie ofert...",
+          "optimizingCode": "Ustalanie terminu...",
+          "uploadingToCdn": "Potwierdzanie dostępności...",
+          "settingUpRouting": "Finalizacja projektu..."
         },
         "success": {
-          "deploymentComplete": "Project completed",
-          "urlLabel": "Reference ID"
+          "deploymentComplete": "Projekt ukończony",
+          "urlLabel": "ID referencyjne"
         }
       }
     },
     "fileStructure": {
-      "title": "Organized Project Flow",
-      "description": "Each flooring project follows a clear and structured workflow.",
-      "explorer": "Project Flow",
-      "projectName": "flooring-project",
-      "footerLeft": "Clear Steps",
-      "footerRight": "Fully Managed"
+      "title": "Uporządkowany przebieg projektu",
+      "description": "Każdy projekt podłogi ma jasny i uporządkowany proces realizacji.",
+      "explorer": "Przebieg projektu",
+      "projectName": "projekt-podlogi",
+      "footerLeft": "Jasne kroki",
+      "footerRight": "Pełne zarządzanie"
     },
     "scalableEnvironments": {
-      "title": "Scalable Platform",
-      "description": "FloorOneX scales automatically as demand and projects grow.",
-      "resourceUsage": "Platform Usage (24h)",
-      "activeServers": "Active Providers",
-      "footerLeft": "Nationwide Network",
-      "footerRight": "Handles Any Volume",
-      "loading": "Loading..."
+      "title": "Skalowalna platforma",
+      "description": "FloorOneX automatycznie skaluje się wraz ze wzrostem liczby projektów i zapytań.",
+      "resourceUsage": "Użycie platformy (24h)",
+      "activeServers": "Aktywni wykonawcy",
+      "footerLeft": "Ogólnokrajowa sieć",
+      "footerRight": "Obsługuje każdy wolumen",
+      "loading": "Ładowanie..."
     },
     "globalDeployments": {
-      "title": "Nationwide Coverage",
-      "description": "Access flooring professionals across multiple cities and regions.",
-      "liveStatus": "Live Status",
-      "deployments": "projects",
-      "uptime": "availability",
-      "regions": "regions",
-      "footerLeft": "UK Coverage",
-      "footerRight": "Growing Network"
+      "title": "Zasięg ogólnokrajowy",
+      "description": "Dostęp do specjalistów od podłóg w wielu miastach i regionach.",
+      "liveStatus": "Status na żywo",
+      "deployments": "projekty",
+      "uptime": "dostępność",
+      "regions": "regiony",
+      "footerLeft": "Zasięg w UK",
+      "footerRight": "Rosnąca sieć"
     }
   },
   "templates": {
-    "sectionTitle": "Flooring Services",
-    "sectionDescription": "Browse flooring services offered by trusted professionals.",
-    "viewAll": "View All Services",
-    "preview": "Preview",
-    "useTemplate": "Request Quote",
-    "loadMore": "Load More",
-    "browseAll": "Browse All Services"
+    "sectionTitle": "Usługi podłogowe",
+    "sectionDescription": "Przeglądaj usługi podłogowe oferowane przez zaufanych fachowców.",
+    "viewAll": "Zobacz wszystkie usługi",
+    "preview": "Podgląd",
+    "useTemplate": "Poproś o wycenę",
+    "loadMore": "Załaduj więcej",
+    "browseAll": "Przeglądaj wszystkie usługi"
   },
   "responsiveTemplates": {
-    "title": "Accessible on Any Device",
-    "description": "Use FloorOneX seamlessly on mobile, tablet, or desktop.",
-    "ctaButton": "Explore Services",
+    "title": "Dostępne na każdym urządzeniu",
+    "description": "Korzystaj z FloorOneX płynnie na telefonie, tablecie i komputerze.",
+    "ctaButton": "Przeglądaj usługi",
     "features": {
-      "adaptsToScreenSize": "Adapts to all screen sizes",
-      "touchFriendly": "Touch-friendly interface",
-      "optimizedOrientation": "Supports portrait and landscape"
+      "adaptsToScreenSize": "Dopasowuje się do każdego ekranu",
+      "touchFriendly": "Interfejs przyjazny dotykowi",
+      "optimizedOrientation": "Obsługuje pion i poziom"
     }
   },
   "pricing": {
-    "badge": "Fair & Transparent",
-    "title": "Simple Pricing",
-    "description": "Customers use the platform for free. Providers pay only when they win jobs.",
+    "badge": "Uczciwe i przejrzyste",
+    "title": "Prosty cennik",
+    "description": "Klienci korzystają z platformy za darmo. Wykonawcy płacą tylko wtedy, gdy zdobędą zlecenie.",
     "filter": {
-      "allFeatures": "All Features",
-      "showButton": "Show feature categories",
-      "hideButton": "Hide feature categories",
+      "allFeatures": "Wszystkie funkcje",
+      "showButton": "Pokaż kategorie funkcji",
+      "hideButton": "Ukryj kategorie funkcji",
       "categories": {
-        "core": "Core",
-        "support": "Support",
-        "customization": "Customization",
-        "license": "Usage"
+        "core": "Podstawowe",
+        "support": "Wsparcie",
+        "customization": "Personalizacja",
+        "license": "Użycie"
       }
     },
     "plans": {
       "components": {
-        "name": "Customer",
-        "description": "Request quotes and manage flooring projects",
-        "price": "Free",
-        "priceLabel": "no cost",
-        "socialProof": "Used by thousands of homeowners",
-        "featuresTitle": "Includes:",
-        "cta": "Get Started",
+        "name": "Klient",
+        "description": "Poproś o wyceny i zarządzaj projektami podłóg",
+        "price": "Za darmo",
+        "priceLabel": "bez kosztów",
+        "socialProof": "Używane przez tysiące właścicieli domów",
+        "featuresTitle": "Zawiera:",
+        "cta": "Zacznij",
         "features": {
-          "access": "Unlimited quote requests",
-          "updates": "Real-time updates",
-          "support": "Customer support",
-          "license": "Personal use",
-          "downloads": "Project documents",
-          "code": "Secure payments",
-          "tailwind": "Verified installers",
-          "documentation": "Help center access"
+          "access": "Nielimitowane prośby o wycenę",
+          "updates": "Aktualizacje w czasie rzeczywistym",
+          "support": "Wsparcie dla klientów",
+          "license": "Użytek prywatny",
+          "downloads": "Dokumenty projektu",
+          "code": "Bezpieczne płatności",
+          "tailwind": "Zweryfikowani wykonawcy",
+          "documentation": "Dostęp do centrum pomocy"
         },
         "tooltips": {
-          "license": "For personal and business flooring projects",
-          "code": "Payments are held securely until job completion"
+          "license": "Dla projektów prywatnych i firmowych",
+          "code": "Płatności są zabezpieczone do czasu zakończenia zlecenia"
         }
       },
       "templates": {
-        "name": "Service Provider",
-        "description": "Grow your flooring business",
-        "price": "Commission-based",
-        "priceLabel": "per job",
-        "socialProof": "Trusted by professionals",
-        "featuresTitle": "Includes:",
-        "cta": "Join as Provider",
+        "name": "Wykonawca",
+        "description": "Rozwijaj swoją firmę podłogową",
+        "price": "Prowizyjnie",
+        "priceLabel": "za zlecenie",
+        "socialProof": "Zaufane przez profesjonalistów",
+        "featuresTitle": "Zawiera:",
+        "cta": "Dołącz jako wykonawca",
         "features": {
-          "components": "Job leads",
-          "templates": "Public profile listing",
-          "updates": "Instant notifications",
-          "support": "Priority support",
-          "license": "Commercial use",
-          "downloads": "Job documentation",
-          "frameworks": "Business tools",
-          "figma": "Portfolio gallery",
-          "examples": "Customer reviews",
-          "customization": "Profile customization"
+          "components": "Leady zleceń",
+          "templates": "Publiczny profil wykonawcy",
+          "updates": "Natychmiastowe powiadomienia",
+          "support": "Wsparcie priorytetowe",
+          "license": "Użytek komercyjny",
+          "downloads": "Dokumentacja zleceń",
+          "frameworks": "Narzędzia biznesowe",
+          "figma": "Galeria realizacji",
+          "examples": "Opinie klientów",
+          "customization": "Personalizacja profilu"
         },
         "tooltips": {
-          "license": "Use FloorOneX to acquire unlimited clients",
-          "frameworks": "Optimized for mobile and desktop"
+          "license": "Pozyskuj nielimitowanych klientów przez FloorOneX",
+          "frameworks": "Zoptymalizowane dla mobile i desktop"
         }
       },
       "enterprise": {
         "name": "Enterprise",
-        "description": "For large flooring companies and chains",
-        "price": "Custom",
-        "priceLabel": "tailored",
-        "socialProof": "Used by large teams",
-        "featuresTitle": "Includes:",
-        "cta": "Contact Sales",
+        "description": "Dla dużych firm i sieci podłogowych",
+        "price": "Indywidualnie",
+        "priceLabel": "dopasowane",
+        "socialProof": "Używane przez duże zespoły",
+        "featuresTitle": "Zawiera:",
+        "cta": "Skontaktuj się z działem sprzedaży",
         "features": {
-          "everything": "Everything in Provider plan",
-          "support": "Dedicated account manager",
-          "training": "Team onboarding",
-          "consulting": "Business consulting",
-          "customComponents": "Custom integrations",
-          "earlyAccess": "Early feature access",
-          "license": "Multi-team license",
-          "integration": "System integrations",
-          "priority": "Priority visibility",
-          "sla": "Service level agreement"
+          "everything": "Wszystko z planu Wykonawca",
+          "support": "Dedykowany opiekun konta",
+          "training": "Wdrożenie zespołu",
+          "consulting": "Doradztwo biznesowe",
+          "customComponents": "Integracje na zamówienie",
+          "earlyAccess": "Wcześniejszy dostęp do funkcji",
+          "license": "Licencja dla wielu zespołów",
+          "integration": "Integracje systemowe",
+          "priority": "Priorytetowa widoczność",
+          "sla": "Umowa SLA"
         },
         "tooltips": {
-          "consulting": "Personalized business consulting",
-          "customComponents": "Custom features on request"
+          "consulting": "Spersonalizowane doradztwo biznesowe",
+          "customComponents": "Funkcje na zamówienie"
         }
       }
     },
     "testimonials": {
-      "title": "Trusted by Customers & Professionals",
-      "description": "Thousands of users rely on FloorOneX for their flooring projects.",
-      "author": "Michael Brown",
-      "role": "Flooring Contractor",
-      "quote": "\"FloorOneX helped us win more clients and manage projects more efficiently. It's a game changer.\"",
+      "title": "Zaufane przez klientów i profesjonalistów",
+      "description": "Tysiące użytkowników polega na FloorOneX przy projektach podłóg.",
+      "author": "Michał Nowak",
+      "role": "Wykonawca podłóg",
+      "quote": "\"FloorOneX pomogło nam zdobyć więcej klientów i sprawniej zarządzać projektami. To prawdziwa zmiana gry.\"",
       "stats": {
-        "developers": "5,000+",
-        "developersLabel": "Users",
+        "developers": "5 000+",
+        "developersLabel": "Użytkowników",
         "satisfaction": "97%",
-        "satisfactionLabel": "Satisfaction",
-        "components": "1,000+",
-        "componentsLabel": "Projects",
+        "satisfactionLabel": "Zadowolenia",
+        "components": "1 000+",
+        "componentsLabel": "Projektów",
         "support": "24/7",
-        "supportLabel": "Support"
+        "supportLabel": "Wsparcie"
       }
     },
     "footer": {
-      "title": "Need more details?",
-      "description": "Contact our team for partnerships or enterprise solutions.",
-      "cta": "Contact Us"
+      "title": "Potrzebujesz więcej informacji?",
+      "description": "Skontaktuj się z naszym zespołem w sprawie partnerstw lub rozwiązań enterprise.",
+      "cta": "Skontaktuj się z nami"
     },
     "modal": {
-      "title": "Coming Soon",
-      "description": "This feature is under development and will be available shortly.",
-      "cta": "Contact Us",
-      "continue": "Continue Browsing"
+      "title": "Wkrótce",
+      "description": "Ta funkcja jest w trakcie tworzenia i będzie dostępna wkrótce.",
+      "cta": "Skontaktuj się z nami",
+      "continue": "Kontynuuj przeglądanie"
     }
   },
   "faq": {
     "badge": "FAQ",
-    "title": "Questions & Answers",
-    "description": "Everything you need to know about FloorOneX",
-    "searchPlaceholder": "Search questions...",
+    "title": "Pytania i odpowiedzi",
+    "description": "Wszystko, co musisz wiedzieć o FloorOneX",
+    "searchPlaceholder": "Szukaj pytań...",
     "categories": {
-      "all": "All",
-      "templates": "Customers",
-      "components": "Providers",
-      "licensing": "Payments",
-      "support": "Support"
+      "all": "Wszystkie",
+      "templates": "Klienci",
+      "components": "Wykonawcy",
+      "licensing": "Płatności",
+      "support": "Wsparcie"
     },
-    "noResults": "No matching questions found.",
-    "showMore": "Show More Questions",
-    "showLess": "Show Less Questions",
+    "noResults": "Nie znaleziono pasujących pytań.",
+    "showMore": "Pokaż więcej pytań",
+    "showLess": "Pokaż mniej pytań",
     "items": {
       "download": {
-        "question": "How do I request a quote?",
-        "answer": "Create an account, submit your project details, and receive quotes from local professionals."
+        "question": "Jak poprosić o wycenę?",
+        "answer": "Załóż konto, wyślij szczegóły projektu i odbierz wyceny od lokalnych wykonawców."
       },
       "updates": {
-        "question": "Are providers verified?",
-        "answer": "Yes, all flooring professionals are vetted before joining the platform."
+        "question": "Czy wykonawcy są weryfikowani?",
+        "answer": "Tak, wszyscy specjaliści od podłóg są sprawdzani przed dołączeniem do platformy."
       },
       "clientProjects": {
-        "question": "Do I need to pay upfront?",
-        "answer": "Payments are released only after job milestones are completed."
+        "question": "Czy muszę płacić z góry?",
+        "answer": "Płatności są uwalniane dopiero po zakończeniu etapów zlecenia."
       },
       "framework": {
-        "question": "What flooring types are supported?",
-        "answer": "Wood, laminate, vinyl, LVT, carpet, and more."
+        "question": "Jakie rodzaje podłóg są obsługiwane?",
+        "answer": "Drewno, laminat, winyl, LVT, wykładziny i wiele więcej."
       },
       "support": {
-        "question": "Is support available?",
-        "answer": "Yes, support is available for both customers and providers."
+        "question": "Czy dostępne jest wsparcie?",
+        "answer": "Tak, wsparcie jest dostępne zarówno dla klientów, jak i wykonawców."
       },
       "custom": {
-        "question": "Can I request custom services?",
-        "answer": "Yes, you can request tailored flooring solutions from providers."
+        "question": "Czy mogę poprosić o usługi niestandardowe?",
+        "answer": "Tak, możesz poprosić o dopasowane rozwiązania podłogowe od wykonawców."
       },
       "commercial": {
-        "question": "How does the provider commission work?",
-        "answer": "Providers pay a commission only when they successfully complete a job."
+        "question": "Jak działa prowizja dla wykonawców?",
+        "answer": "Wykonawcy płacą prowizję tylko wtedy, gdy zrealizują zlecenie."
       },
       "responsive": {
-        "question": "Can I use FloorOneX on mobile?",
-        "answer": "Yes, the platform is fully responsive and works on all devices."
+        "question": "Czy mogę używać FloorOneX na telefonie?",
+        "answer": "Tak, platforma jest w pełni responsywna i działa na wszystkich urządzeniach."
       },
       "refund": {
-        "question": "What if I'm not satisfied?",
-        "answer": "Our support team will assist in resolving any issues with your project."
+        "question": "Co jeśli nie jestem zadowolony?",
+        "answer": "Nasz zespół wsparcia pomoże rozwiązać wszelkie problemy związane z Twoim projektem."
       },
       "import": {
-        "question": "How do I get started?",
-        "answer": "Sign up, create your project or provider profile, and start using FloorOneX."
+        "question": "Jak zacząć?",
+        "answer": "Zarejestruj się, utwórz projekt lub profil wykonawcy i zacznij korzystać z FloorOneX."
       }
     }
   },
   "footer": {
-    "title": "Connecting Flooring Professionals Nationwide",
-    "description": "FloorOneX brings customers and flooring experts together across the UK.",
+    "title": "Łączymy specjalistów od podłóg w całym kraju",
+    "description": "FloorOneX łączy klientów i ekspertów od podłóg w całej Wielkiej Brytanii.",
     "form": {
-      "name": "Full Name",
-      "namePlaceholder": "John Smith",
-      "email": "Email Address",
-      "emailPlaceholder": "your@email.com",
-      "message": "Your Message",
-      "messagePlaceholder": "How can we help?",
-      "submit": "Send Message",
-      "submitting": "Sending..."
+      "name": "Imię i nazwisko",
+      "namePlaceholder": "Jan Kowalski",
+      "email": "Adres e-mail",
+      "emailPlaceholder": "twoj@email.com",
+      "message": "Twoja wiadomość",
+      "messagePlaceholder": "W czym możemy pomóc?",
+      "submit": "Wyślij wiadomość",
+      "submitting": "Wysyłanie..."
     },
     "captcha": {
-      "title": "Please verify you're not a robot:",
-      "error": "Captcha verification required",
-      "back": "Back",
-      "confirm": "Confirm & Send"
+      "title": "Potwierdź, że nie jesteś robotem:",
+      "error": "Wymagana weryfikacja captcha",
+      "back": "Wstecz",
+      "confirm": "Potwierdź i wyślij"
     },
     "success": {
-      "title": "Message Sent",
-      "description": "Thank you for contacting us. We'll respond shortly.",
-      "button": "Send Another Message"
+      "title": "Wiadomość wysłana",
+      "description": "Dziękujemy za kontakt. Odpowiemy wkrótce.",
+      "button": "Wyślij kolejną wiadomość"
     },
     "errors": {
-      "name": "Name must be at least 2 characters",
-      "email": "Please enter a valid email address",
-      "message": "Message must be at least 5 characters"
+      "name": "Imię i nazwisko musi mieć co najmniej 2 znaki",
+      "email": "Wpisz poprawny adres e-mail",
+      "message": "Wiadomość musi mieć co najmniej 5 znaków"
     }
   }
 }

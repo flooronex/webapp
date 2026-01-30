@@ -132,7 +132,9 @@ export function PricingCard({
           <div className="mb-2 sm:mb-2">
             <div className="flex items-end">
               <span className="text-4xl font-bold text-(--text-primary)">
-                $<AnimatedNumber value={price} />
+                <AnimatedNumber value={price}
+                format={{ style: 'currency', currency: 'GBP' }}
+                />
               </span>
               {displayPriceLabel && (
                 <span className="text-sm text-(--text-muted) mb-1 ms-2">

@@ -3,7 +3,7 @@
 import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import { routing, type Locale } from "@/i18n/routing";
-import { GB, SA } from "country-flag-icons/react/3x2";
+import { GB, PL, RO, RU, SA } from "country-flag-icons/react/3x2";
 import { cn } from "@/lib/utils";
 import {
   Select,
@@ -15,16 +15,25 @@ import {
 const flagComponents: Record<Locale, React.FC<{ className?: string }>> = {
   en: GB,
   ar: SA,
+  ro: RO,
+  ru: RU,
+  pl: PL
 };
 
 const localeIsoCodes: Record<Locale, string> = {
   en: "EN",
   ar: "AR",
+  ro: "RO",
+  ru: "RU",
+  pl: "PL"
 };
 
 const localeNames: Record<Locale, string> = {
   en: "English",
   ar: "العربية",
+  ro: "Română",
+  ru: "Русский",
+  pl: "Polski"
 };
 
 interface LanguageSwitcherProps {

@@ -1,98 +1,98 @@
 {
   "ContactPage": {
     "meta": {
-      "title": "Contact FloorOneX - Get in Touch",
-      "description": "Questions, support, or partnerships? Contact FloorOneX. We connect customers with trusted flooring installers and help companies win more jobs."
+      "title": "Kontakt FloorOneX – Skontaktuj się z nami",
+      "description": "Masz pytania, potrzebujesz wsparcia lub chcesz współpracować? Skontaktuj się z FloorOneX. Łączymy klientów z zaufanymi monterami podłóg i pomagamy firmom zdobywać więcej zleceń."
     },
     "hero": {
-      "badge": "Contact",
-      "title": "Let’s Talk Flooring",
-      "description": "Need help, want to join as an installer, or have a business enquiry? Send us a message and our team will get back to you."
+      "badge": "Kontakt",
+      "title": "Porozmawiajmy o podłogach",
+      "description": "Potrzebujesz pomocy, chcesz dołączyć jako monter lub masz zapytanie biznesowe? Wyślij nam wiadomość, a nasz zespół wkrótce się z Tobą skontaktuje."
     }
   },
   "ContactSection": {
     "form": {
-      "title": "Send us a message",
-      "subtitle": "Fill out the form and we’ll reply as soon as possible.",
+      "title": "Wyślij nam wiadomość",
+      "subtitle": "Wypełnij formularz, a odpowiemy tak szybko, jak to możliwe.",
       "name": {
-        "label": "Full Name",
-        "placeholder": "John Smith"
+        "label": "Imię i nazwisko",
+        "placeholder": "Jan Kowalski"
       },
       "email": {
-        "label": "Email Address",
-        "placeholder": "john@company.co.uk"
+        "label": "Adres e-mail",
+        "placeholder": "jan@firma.co.uk"
       },
       "phone": {
-        "label": "Phone Number (Optional)",
+        "label": "Numer telefonu (opcjonalnie)",
         "placeholder": "+44 7XXX XXXXXX"
       },
       "subject": {
-        "label": "Subject",
-        "placeholder": "Quotes, support, partnerships..."
+        "label": "Temat",
+        "placeholder": "Wyceny, wsparcie, współpraca..."
       },
       "message": {
-        "label": "Message",
-        "placeholder": "Tell us what you need (job details, area, timeline, or how you’d like to collaborate)..."
+        "label": "Wiadomość",
+        "placeholder": "Opisz swoje potrzeby (szczegóły zlecenia, lokalizacja, termin lub propozycja współpracy)..."
       },
-      "submit": "Send Message",
-      "submitting": "Sending...",
-      "success": "Message sent successfully!",
-      "error": "Failed to send. Please try again.",
-      "privacyNote": "By submitting this form, you agree to our Privacy Policy and Terms of Service.",
+      "submit": "Wyślij wiadomość",
+      "submitting": "Wysyłanie...",
+      "success": "Wiadomość została wysłana pomyślnie!",
+      "error": "Nie udało się wysłać wiadomości. Spróbuj ponownie.",
+      "privacyNote": "Wysyłając formularz, akceptujesz naszą Politykę Prywatności oraz Regulamin.",
       "validation": {
-        "nameRequired": "Name is required",
-        "nameMin": "Name must be at least 2 characters",
-        "nameMax": "Name cannot exceed 100 characters",
-        "emailRequired": "Email is required",
-        "emailInvalid": "Please enter a valid email address",
-        "subjectRequired": "Subject is required",
-        "subjectMin": "Subject must be at least 5 characters",
-        "subjectMax": "Subject cannot exceed 200 characters",
-        "messageRequired": "Message is required",
-        "messageMin": "Message must be at least 20 characters",
-        "messageMax": "Message cannot exceed 2000 characters",
-        "phoneInvalid": "Please enter a valid phone number"
+        "nameRequired": "Imię i nazwisko są wymagane",
+        "nameMin": "Imię i nazwisko muszą mieć co najmniej 2 znaki",
+        "nameMax": "Imię i nazwisko nie mogą przekraczać 100 znaków",
+        "emailRequired": "Adres e-mail jest wymagany",
+        "emailInvalid": "Wprowadź poprawny adres e-mail",
+        "subjectRequired": "Temat jest wymagany",
+        "subjectMin": "Temat musi mieć co najmniej 5 znaków",
+        "subjectMax": "Temat nie może przekraczać 200 znaków",
+        "messageRequired": "Wiadomość jest wymagana",
+        "messageMin": "Wiadomość musi mieć co najmniej 20 znaków",
+        "messageMax": "Wiadomość nie może przekraczać 2000 znaków",
+        "phoneInvalid": "Wprowadź poprawny numer telefonu"
       }
     },
     "info": {
-      "title": "Get in Touch",
-      "description": "Choose the best way to reach us. We usually respond within 24 hours (business days).",
+      "title": "Skontaktuj się z nami",
+      "description": "Wybierz najwygodniejszą formę kontaktu. Zwykle odpowiadamy w ciągu 24 godzin roboczych.",
       "email": {
-        "label": "Email",
+        "label": "E-mail",
         "value": "support@flooronex.com"
       },
       "phone": {
-        "label": "Phone",
+        "label": "Telefon",
         "value": "+44 (0)20 0000 0000"
       },
       "address": {
-        "label": "Office",
-        "value": "United Kingdom"
+        "label": "Biuro",
+        "value": "Wielka Brytania"
       },
       "hours": {
-        "label": "Business Hours",
-        "value": "Mon - Fri: 9:00 AM - 6:00 PM (UK time)"
+        "label": "Godziny pracy",
+        "value": "Pon – Pt: 9:00 – 18:00 (czas UK)"
       },
       "social": {
-        "label": "Follow Us"
+        "label": "Śledź nas"
       },
-      "responseTime": "Usually responds within 24 hours"
+      "responseTime": "Zazwyczaj odpowiadamy w ciągu 24 godzin"
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to common questions",
+      "title": "Najczęściej zadawane pytania",
+      "description": "Szybkie odpowiedzi na najczęstsze pytania",
       "items": {
         "q1": {
-          "question": "How quickly will I receive a response?",
-          "answer": "We typically respond within 24 business hours. For urgent issues, please contact us by phone."
+          "question": "Jak szybko otrzymam odpowiedź?",
+          "answer": "Zazwyczaj odpowiadamy w ciągu 24 godzin roboczych. W pilnych sprawach prosimy o kontakt telefoniczny."
         },
         "q2": {
-          "question": "I’m an installer/company — how do I join FloorOneX?",
-          "answer": "Use the contact form and select a subject like “Join as an Installer”. We’ll guide you through verification, profile setup, and how to start receiving leads."
+          "question": "Jestem monterem / firmą – jak dołączyć do FloorOneX?",
+          "answer": "Skorzystaj z formularza kontaktowego i wybierz temat „Dołącz jako monter”. Przeprowadzimy Cię przez proces weryfikacji, konfiguracji profilu i pozyskiwania zleceń."
         },
         "q3": {
-          "question": "Can I request a quote for a flooring job?",
-          "answer": "Yes. Send your location, flooring type (laminate/LVT/wood/carpet), approximate area (m²), and preferred timeline. We’ll connect you with suitable installers."
+          "question": "Czy mogę poprosić o wycenę montażu podłogi?",
+          "answer": "Tak. Podaj lokalizację, rodzaj podłogi (panele / LVT / drewno / wykładzina), przybliżoną powierzchnię (m²) oraz preferowany termin. Połączymy Cię z odpowiednimi wykonawcami."
         }
       }
     }

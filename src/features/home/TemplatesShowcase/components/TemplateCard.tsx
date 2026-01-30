@@ -48,16 +48,24 @@ export function TemplateCard({
         ease: "easeInOut",
       }}
     >
-      {/* Background Image */}
+      {/* Background Video */}
       <div className="absolute inset-0">
-        <Image
+        <video
+          src={image}
+          autoPlay
+          muted
+          loop
+          className="w-full h-full object-cover object-top"
+        />
+
+                {/* <Image
           src={image}
           alt={`${name} template preview`}
           fill
           className="object-cover object-top"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
           loading="lazy"
-        />
+        /> */}
       </div>
 
       {/* Label */}

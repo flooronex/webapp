@@ -10,8 +10,8 @@ export const siteConfig = {
         "Modern Next.js landing page template: Responsive, dark mode, SEO optimized, high-performance. Includes premium components.",
     url: "https://publino-template.vercel.app",
     author: {
-        name: "Mohammed Djoudir",
-        email: "mohamedjoudir1@gmail.com",
+        name: "Dorin Buraca",
+        email: "buracant@gmail.com",
     },
     keywords: [
         "next.js",
