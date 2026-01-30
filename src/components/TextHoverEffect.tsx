@@ -173,7 +173,7 @@ export const TextHoverEffect = ({
           }}
           transition={{
             duration: 4,
-            ease: "easeInOut",
+            //ease: "easeInOut",
           }}
         >
           {text}

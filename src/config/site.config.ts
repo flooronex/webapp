@@ -4,8 +4,8 @@
  */
 
 export const siteConfig = {
-    name: "Publino",
-    title: "Publino | Next.js Landing Page Template",
+    name: "FloorOneX",
+    title: "FloorOneX | Site",
     description:
         "Modern Next.js landing page template: Responsive, dark mode, SEO optimized, high-performance. Includes premium components.",
     url: "https://publino-template.vercel.app",

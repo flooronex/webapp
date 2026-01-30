@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "FloorOneX | Next.js Landing Page Template",
+  title: "FloorOneX",
   description:
     "Modern Next.js landing page template: Responsive, dark mode, SEO optimized, high-performance. Includes premium components.",
   keywords: [
