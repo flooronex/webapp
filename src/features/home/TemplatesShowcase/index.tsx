@@ -8,6 +8,7 @@ import { GridBg } from "@/components";
 import { useTemplates } from "./hooks";
 import { getTemplates, getLabels } from "./config";
 import { SectionHeader, TemplatesGrid } from "./components";
+import { Link } from "@/i18n/navigation";
 
 function TemplatesShowcaseContent() {
   const t = useTranslations("home.templates");
@@ -52,7 +53,10 @@ function TemplatesShowcaseContent() {
             size="default"
             className="w-full xs:w-auto max-w-xs"
           >
-            {labels.browseAll}
+            <Link href="/services">
+              {labels.browseAll}
+            </Link>
+            {/* {labels.browseAll} */}
           </Button>
         </div>
       </div>

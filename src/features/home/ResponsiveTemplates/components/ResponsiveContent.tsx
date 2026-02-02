@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
 import { ResponsiveLabels } from "../types";
 import { FeatureList } from "./FeatureList";
+import { Link } from "@/i18n/navigation";
 
 interface ResponsiveContentProps {
   labels: ResponsiveLabels;
@@ -44,8 +45,15 @@ export function ResponsiveContent({ labels }: ResponsiveContentProps) {
         variant="default"
         size="default"
         className="w-full sm:w-auto max-w-xs mt-5 sm:mt-8"
+        onClick={() => {
+          console.log("CTA clicked: Browse services");
+        }}
       >
-        {labels.ctaButton}
+
+        <Link href="/services">
+          {labels.ctaButton}
+        </Link>
+        {/* {labels.ctaButton} */}
       </Button>
     </div>
   );

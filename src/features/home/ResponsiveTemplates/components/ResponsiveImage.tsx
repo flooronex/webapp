@@ -7,7 +7,7 @@ export function ResponsiveImage() {
     <div className="w-full md:w-1/2 max-w-md mx-auto">
       <Image
         src="/assets/images/logo_full.png"
-        alt="Responsive design illustration"
+        alt="FloorOneX Logo"
         className="w-full h-auto object-contain"
         width={500}
         height={350}

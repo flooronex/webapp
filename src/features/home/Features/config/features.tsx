@@ -7,6 +7,30 @@ import dynamic from "next/dynamic";
 import { ComponentType } from "react";
 
 // Icon components
+
+const SmartphoneIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+    className="w-4 h-4"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M10.5 1.5h3A2.25 2.25 0 0115.75 3.75v16.5A2.25 2.25 0 0113.5 22.5h-3A2.25 2.25 0 018.25 20.25V3.75A2.25 2.25 0 0110.5 1.5z"
+    />
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M12 18.75h.008v.008H12v-.008z"
+    />
+  </svg>
+);
+
+
 const PlayIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -129,8 +153,8 @@ export const getFeaturesData = (t: (key: string) => string): Feature[] => [
   {
     title: t("fileStructure.title"),
     description: t("fileStructure.description"),
-    icon: <FolderIcon />,
-    size: "col-span-1 row-span-2",
+    icon: <SmartphoneIcon />,
+      size: "col-span-1 row-span-2",
     customComponent: FileTree as ComponentType,
   },
   {

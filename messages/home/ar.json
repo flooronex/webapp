@@ -224,7 +224,7 @@
             }
         },
         "fileStructure": {
-            "title": "هيكل الملفات",
+            "title":"FloorOneX App",
             "description": "نظّم مشروعك باستخدام هيكل الملفات الموصى به لتحقيق أفضل قابلية للصيانة.",
             "explorer": "المستكشف",
             "projectName": "مشروعي",

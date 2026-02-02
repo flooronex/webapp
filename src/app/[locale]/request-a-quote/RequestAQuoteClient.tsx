@@ -1,6 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import Image from "next/image";
+
 
 type FormState = {
   fullName: string;
@@ -30,6 +33,7 @@ const SERVICE_TYPES = [
 const PROPERTY_TYPES = ["House", "Flat / Apartment", "Office", "Retail", "Other"];
 
 const BUDGETS = ["Under £500", "£500–£1,000", "£1,000–£2,500", "£2,500+"];
+
 
 function FieldLabel({
   children,
@@ -103,6 +107,15 @@ function Textarea(props: React.TextareaHTMLAttributes<HTMLTextAreaElement>) {
 }
 
 export default function RequestAQuoteClient() {
+  const searchParams = useSearchParams();
+  const serviceFromUrl = searchParams.get("service") ?? "";
+
+  const serviceOptionFromUrl =
+    serviceFromUrl && !SERVICE_TYPES.includes(serviceFromUrl)
+      ? serviceFromUrl
+      : "";
+
+
   const [form, setForm] = useState<FormState>({
     fullName: "",
     email: "",
@@ -117,6 +130,13 @@ export default function RequestAQuoteClient() {
     notes: "",
     consent: false,
   });
+
+  useEffect(() => {
+    if (serviceFromUrl) {
+      setForm((prev) => ({ ...prev, serviceType: serviceFromUrl }));
+    }
+  }, [serviceFromUrl]);
+
 
   const [files, setFiles] = useState<File[]>([]);
   const [submitting, setSubmitting] = useState(false);
@@ -208,10 +228,15 @@ export default function RequestAQuoteClient() {
       <div className="relative mx-auto w-full max-w-6xl px-4 py-12 md:py-16">
         {/* header */}
         <header className="mx-auto max-w-3xl text-center">
-          <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-2xl border border-neutral-200 bg-white shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
-            <span className="text-2xl">🧾</span>
+          <div className="flex justify-center items-center">
+            <Image
+              src="/assets/images/Fox_logo_gradient.png"
+              alt="FloorOneX Logo"
+              width={80}
+              height={80}
+              className="object-contain animate-pulse rounded-2xl"
+            />
           </div>
-
           <h1 className="text-4xl font-semibold tracking-tight text-neutral-900 md:text-5xl dark:text-white">
             Request a Quote
           </h1>
@@ -320,6 +345,12 @@ export default function RequestAQuoteClient() {
                   onChange={(e) => update("serviceType", e.target.value)}
                 >
                   <option value="">Select a service…</option>
+
+                  {/* ✅ inject option from URL if missing */}
+                  {serviceOptionFromUrl ? (
+                    <option value={serviceOptionFromUrl}>{serviceOptionFromUrl}</option>
+                  ) : null}
+
                   {SERVICE_TYPES.map((x) => (
                     <option key={x} value={x}>
                       {x}
