@@ -42,7 +42,7 @@ export function MobileLanguageSwitcher({
       <span className="text-xs text-[var(--text-muted)] uppercase tracking-wider mb-1">
         Language
       </span>
-      <div className="flex gap-2">
+      <div className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:gap-1">
         {routing.locales.map((loc) => {
           const Flag = flagComponents[loc];
           const isActive = locale === loc;
@@ -52,7 +52,7 @@ export function MobileLanguageSwitcher({
               key={loc}
               onClick={() => handleLocaleChange(loc)}
               className={cn(
-                "flex items-center gap-2 px-3 py-2 rounded-lg transition-all",
+                "flex items-center gap-1 px-1.5 py-2 rounded-lg transition-all",
                 "hover:bg-[var(--surface-hover)]",
                 isActive &&
                   "bg-[var(--surface-tertiary)] ring-1 ring-[var(--border-primary)]"

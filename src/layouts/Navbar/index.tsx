@@ -50,7 +50,8 @@ export function Navbar({ className }: { className?: string }) {
   const actions = {
     login: {
       label: t(`actions.${navActions.login.translationKey}`),
-      onClick: () => console.log("Login clicked"),
+      onClick: () => router.push("/early-access"),
+      //onClick: () => console.log("Login clicked"),
     },
     cta: {
       label: t(`actions.${navActions.cta.translationKey}`),
