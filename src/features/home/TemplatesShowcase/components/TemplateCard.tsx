@@ -55,10 +55,17 @@ export function TemplateCard({
           autoPlay
           muted
           loop
-          className="w-full h-full object-cover object-top"
+          playsInline
+          preload="auto"
+          controls={false}
+          disablePictureInPicture
+          disableRemotePlayback
+          tabIndex={-1}
+          aria-hidden="true"
+          className="w-full h-full object-cover object-top pointer-events-none select-none"
         />
 
-                {/* <Image
+        {/* <Image
           src={image}
           alt={`${name} template preview`}
           fill

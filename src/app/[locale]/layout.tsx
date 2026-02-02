@@ -151,7 +151,7 @@ export default async function LocaleLayout({ children, params }: Props) {
                 </main>
                 <footer
                   id="site-footer"
-                  className="py-8 relative bg-white dark:bg-black"
+                  className="py-1 relative bg-white dark:bg-black"
                 >
                   <div className="container mx-auto max-w-350 px-4">
                     <div className="container mx-auto max-w-350 px-4">
@@ -163,28 +163,32 @@ export default async function LocaleLayout({ children, params }: Props) {
                             href="https://play.google.com/store/apps/details?id=com.flooronex"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 px-4 py-2 bg-black dark:bg-white text-white dark:text-black rounded-lg hover:opacity-80 transition-opacity"
+                            aria-label="Download on Google Play"
+                            className="inline-block rounded-lg overflow-hidden hover:opacity-90 transition-opacity"
                           >
-                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                              <path d="M3.609 1.814L13.798 12 3.609 22.186a1.5 1.5 0 0 1-2.117-2.117L10.564 12 1.492 2.931A1.5 1.5 0 0 1 3.609 1.814zm16.782 0a1.5 1.5 0 0 1 2.117 2.117L13.436 12l9.072 9.069a1.5 1.5 0 0 1-2.117 2.117L11.202 12 21.391 1.814z"/>
-                            </svg>
-                            <span className="text-sm font-semibold">Google Play</span>
+                            <img
+                              src="/assets/images/googleplay.png"
+                              alt="Google Play"
+                              className="w-40 sm:w-44 md:w-48 h-auto object-contain block"
+                            />
                           </a>
                           <a
                             href="https://apps.apple.com/app/flooronex/id1234567890"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 px-4 py-2 bg-black dark:bg-white text-white dark:text-black rounded-lg hover:opacity-80 transition-opacity"
+                            aria-label="Download on the App Store"
+                            className="inline-block rounded-lg overflow-hidden hover:opacity-90 transition-opacity"
                           >
-                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.3-3.14-2.53C4.25 17.12 2.94 12.6 4.9 9.12c.9-1.41 2.05-2.48 3.56-2.51 1.31-.03 2.55.87 3.83.87 1.27 0 2.24-.88 3.85-.84 1.63.05 2.85 1.025 3.74 2.65.54.87.7 1.46 1.07 2.42-2.86 1.3-2.95 4.7-.88 5.53zm-2.68-10.26c.12-1.47-.55-2.86-1.44-3.6-.72-.54-1.93-.94-2.88-.81-.13 1.39.44 2.86 1.31 3.63.96.79 2.26.82 3.02 1.91.02-.04.06-.08.08-.12z"/>
-                            </svg>
-                            <span className="text-sm font-semibold">App Store</span>
+                            <img
+                              src="/assets/images/appstore.png"
+                              alt="App Store"
+                              className="w-40 sm:w-44 md:w-48 h-auto object-contain block"
+                            />
                           </a>
                         </div>
 
                         {/* LEGAL LINKS */}
-                        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
+                        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm mt-8">
                           {legalLinks.map((item) => (
                             <Link
                               key={item.href}

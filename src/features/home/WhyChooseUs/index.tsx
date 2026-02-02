@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { GridBg } from "@/components";
 import { BenefitCard } from "./components";
 import { getBenefitsData } from "./config";
+import { Link } from "@/i18n/navigation";
 
 // Modern grid container for cards
 const CardGrid = ({ children }: { children: React.ReactNode }) => (
@@ -77,14 +78,20 @@ export default function WhyChooseUs() {
             size="lg"
             className="w-full sm:w-auto max-w-xs"
           >
-            {t("buttons.exploreTemplates")}
+            <Link href="/learn-more">
+              Find Installers
+            </Link>
+            {/* {t("buttons.exploreTemplates")} */}
           </Button>
           <Button
             variant="outline"
             size="lg"
             className="w-full sm:w-auto max-w-xs"
           >
-            {t("buttons.requestCustom")}
+            <Link href="/request-a-quote">
+              Request a Quote
+            </Link>
+            {/* {t("buttons.requestCustom")} */}
           </Button>
         </div>
       </div>

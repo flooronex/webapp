@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+//import Link from "next/link";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { Logo, NavLinks, Actions, MobileMenu } from "./components";
@@ -12,9 +12,14 @@ import {
 } from "./hooks";
 import { navStyles, navLinks, navActions } from "./config";
 import { useTranslations } from "next-intl";
+//import { useRouter } from "next/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
+
 
 export function Navbar({ className }: { className?: string }) {
   const t = useTranslations("common.navigation");
+  const router = useRouter();
+
 
   // Hooks
   const scrolled = useNavbarScroll();
@@ -49,8 +54,11 @@ export function Navbar({ className }: { className?: string }) {
     },
     cta: {
       label: t(`actions.${navActions.cta.translationKey}`),
-      onClick: () => console.log("CTA clicked"),
+      onClick: () => router.push("/request-a-quote"),
       variant: navActions.cta.variant,
+      // label: t(`actions.${navActions.cta.translationKey}`),
+      // onClick: () => console.log("Request a Call clicked"),
+      // variant: navActions.cta.variant,
     },
   };
 
@@ -104,7 +112,7 @@ export function Navbar({ className }: { className?: string }) {
                   priority
                 />
                 <span className="text-lg font-bold text-slate-900 dark:text-white">
-                  FloorOneX™ 
+                  FloorOneX™
                 </span>
               </Link>
 

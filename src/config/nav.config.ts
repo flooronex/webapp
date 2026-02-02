@@ -41,6 +41,10 @@ export const navConfig: NavItem[] = [
         title: "About Us",
         href: "/about",
     },
+    {
+        title: "Request a Quote",
+        href: "/request-a-quote",
+    },
 ];
 
 export const footerConfig = {

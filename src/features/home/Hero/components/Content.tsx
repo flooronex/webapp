@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import React from "react";
+import { Link } from "@/i18n/navigation";
 
 export default function HomeSection1Content() {
   const t = useTranslations("home.hero");
@@ -66,7 +67,10 @@ export default function HomeSection1Content() {
             aria-label={t("cta.getStarted")}
             className="min-w-27.5"
           >
-            {t("cta.getStarted")}
+            <Link href="/get-started">
+              {t("cta.getStarted")}
+            </Link>
+            {/* {t("cta.getStarted")} */}
           </Button>
 
           <Button
@@ -74,7 +78,10 @@ export default function HomeSection1Content() {
             aria-label={t("cta.learnMore")}
             className="min-w-27.5"
           >
-            {t("cta.learnMore")}
+            <Link href="/learn-more">
+              {t("cta.learnMore")}
+            </Link>
+            {/* {t("cta.learnMore")} */}
           </Button>
         </div>
       </div>

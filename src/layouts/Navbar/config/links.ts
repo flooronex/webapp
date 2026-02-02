@@ -18,6 +18,7 @@ export const navLinks: NavLinkConfig[] = [
     { translationKey: "contact", href: "/contact" },
     { translationKey: "pricing", href: "/pricing" },
     { translationKey: "about", href: "/about" },
+    //{ translationKey: "requestQuote", href: "/request-a-quote" },
 ];
 
 /**
