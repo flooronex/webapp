@@ -4,6 +4,7 @@ import { FileSystemItem } from "../types";
 import { FileIcon } from "./FileIcon";
 import { FolderIcon } from "./FolderIcon";
 
+
 interface FileTreeItemProps {
   item: FileSystemItem;
   depth?: number;

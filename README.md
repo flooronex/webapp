@@ -1,15 +1,20 @@
-# FloorOneX - Landing Page Template
+# FloorOneX – Flooring Installation Marketplace
 
-Modern, production-ready landing page template built with Next.js 16, React 19, and Tailwind CSS 4. A fully responsive, SEO-optimized, high-performance template with premium components and dark mode support.
+**FloorOneX** is a modern digital marketplace that connects homeowners and property managers with **verified flooring professionals across the UK**.  
+Users can browse services, request quotes, compare offers, and manage flooring projects transparently and efficiently.
 
-## DORIN
+The platform is built with **Next.js 16, React 19, and Tailwind CSS 4**, focusing on performance, scalability, and a premium user experience across web and mobile.
+
+---
+
+## DORIN ADDITIONAL
 
 Rulam:
 
-1. CURAT: ```bash 
+1. CURAT: ``` 
             rm -rf .next && npm run dev
             ```
-2. NORMAL: ```bash
+2. NORMAL: ```
             npm run dev
           ```
 
