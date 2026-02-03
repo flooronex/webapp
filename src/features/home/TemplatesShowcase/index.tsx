@@ -8,10 +8,11 @@ import { GridBg } from "@/components";
 import { useTemplates } from "./hooks";
 import { getTemplates, getLabels } from "./config";
 import { SectionHeader, TemplatesGrid } from "./components";
-import { Link } from "@/i18n/navigation";
+import { useRouter } from "@/i18n/navigation";
 
 function TemplatesShowcaseContent() {
   const t = useTranslations("home.templates");
+  const router = useRouter();
 
   const templates = useMemo(() => getTemplates(), []);
   const labels = useMemo(() => getLabels(t), [t]);
@@ -52,11 +53,9 @@ function TemplatesShowcaseContent() {
             variant="outline"
             size="default"
             className="w-full xs:w-auto max-w-xs"
+            onClick={() => router.push("/services")}
           >
-            <Link href="/services">
-              {labels.browseAll}
-            </Link>
-            {/* {labels.browseAll} */}
+            {labels.browseAll}
           </Button>
         </div>
       </div>

@@ -26,7 +26,7 @@ export function MobileMenu({
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="fixed top-22.5 left-4 right-4 rounded-xl bg-(--foreground) dark:bg-(--surface-tertiary)/80 backdrop-blur-xl p-4 z-50 shadow-xl dark:shadow-2xl border border-(--border-primary)/20"
+            className="fixed top-22.5 left-4 right-4 rounded-xl bg-white/90 text-slate-900 dark:bg-(--surface-tertiary)/80 dark:text-(--foreground) backdrop-blur-xl p-4 z-50 shadow-xl dark:shadow-2xl border border-(--border-primary)/20"
             role="dialog"
             aria-modal="true"
             aria-label="Mobile menu"

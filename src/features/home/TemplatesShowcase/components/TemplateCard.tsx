@@ -105,7 +105,7 @@ export function TemplateCard({
       {/* Preview link with ripple effect */}
       <Link
         href={url}
-        target="_blank"
+        target=""
         rel="noopener noreferrer"
         className="absolute inset-0 cursor-pointer flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50 z-30"
         onClick={handleRipple}

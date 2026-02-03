@@ -4,10 +4,11 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import React from "react";
-import { Link } from "@/i18n/navigation";
+import { useRouter } from "@/i18n/navigation";
 
 export default function HomeSection1Content() {
   const t = useTranslations("home.hero");
+  const router = useRouter();
 
   return (
     <div className="relative flex items-center justify-center pt-6 pb-10 sm:pt-20 sm:pb-22.5 w-full">
@@ -66,22 +67,24 @@ export default function HomeSection1Content() {
             variant="default"
             aria-label={t("cta.getStarted")}
             className="min-w-27.5"
+            onClick={() => {
+              console.log("CLICK");
+              router.push("/get-started");
+            }}
           >
-            <Link href="/get-started">
-              {t("cta.getStarted")}
-            </Link>
-            {/* {t("cta.getStarted")} */}
+            {t("cta.getStarted")}
           </Button>
 
           <Button
             variant="outline"
             aria-label={t("cta.learnMore")}
             className="min-w-27.5"
+            onClick={() => {
+              console.log("CLICK");
+              router.push("/learn-more");
+            }}
           >
-            <Link href="/learn-more">
-              {t("cta.learnMore")}
-            </Link>
-            {/* {t("cta.learnMore")} */}
+            {t("cta.learnMore")}
           </Button>
         </div>
       </div>

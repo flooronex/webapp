@@ -4,13 +4,14 @@ import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
 import { ResponsiveLabels } from "../types";
 import { FeatureList } from "./FeatureList";
-import { Link } from "@/i18n/navigation";
+import { useRouter } from "@/i18n/navigation";
 
 interface ResponsiveContentProps {
   labels: ResponsiveLabels;
 }
 
 export function ResponsiveContent({ labels }: ResponsiveContentProps) {
+  const router = useRouter();
   const features = [
     labels.features.adaptsToScreenSize,
     labels.features.touchFriendly,
@@ -47,13 +48,10 @@ export function ResponsiveContent({ labels }: ResponsiveContentProps) {
         className="w-full sm:w-auto max-w-xs mt-5 sm:mt-8"
         onClick={() => {
           console.log("CTA clicked: Browse services");
+          router.push("/services");
         }}
       >
-
-        <Link href="/services">
-          {labels.ctaButton}
-        </Link>
-        {/* {labels.ctaButton} */}
+        {labels.ctaButton}
       </Button>
     </div>
   );

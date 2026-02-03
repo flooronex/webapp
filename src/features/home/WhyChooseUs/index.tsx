@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { GridBg } from "@/components";
 import { BenefitCard } from "./components";
 import { getBenefitsData } from "./config";
-import { Link } from "@/i18n/navigation";
+import { useRouter } from "@/i18n/navigation";
 
 // Modern grid container for cards
 const CardGrid = ({ children }: { children: React.ReactNode }) => (
@@ -22,6 +22,7 @@ export default function WhyChooseUs() {
   const t = useTranslations("home.whyChooseUs");
   const locale = useLocale();
   const isRtl = locale === "ar";
+  const router = useRouter();
 
   const benefits = getBenefitsData(t);
 
@@ -77,21 +78,17 @@ export default function WhyChooseUs() {
             variant="default"
             size="lg"
             className="w-full sm:w-auto max-w-xs"
+            onClick={() => router.push("/learn-more")}
           >
-            <Link href="/learn-more">
-              Find Installers
-            </Link>
-            {/* {t("buttons.exploreTemplates")} */}
+            Find Installers
           </Button>
           <Button
             variant="outline"
             size="lg"
             className="w-full sm:w-auto max-w-xs"
+            onClick={() => router.push("/request-a-quote")}
           >
-            <Link href="/request-a-quote">
-              Request a Quote
-            </Link>
-            {/* {t("buttons.requestCustom")} */}
+            Request a Quote
           </Button>
         </div>
       </div>

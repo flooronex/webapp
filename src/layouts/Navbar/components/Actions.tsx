@@ -30,7 +30,9 @@ export function Actions({
 }: ActionsProps) {
   return (
     <div className="flex items-center justify-end gap-2 min-w-[30%]">
-      <LanguageSwitcher />
+      <div className="hidden md:flex">
+        <LanguageSwitcher />
+      </div>
       <ThemeToggle />
 
       {/* Desktop Actions */}

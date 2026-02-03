@@ -188,7 +188,7 @@ export default async function LocaleLayout({ children, params }: Props) {
                         </div>
 
                         {/* LEGAL LINKS */}
-                        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm mt-8">
+                        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs mt-5">
                           {legalLinks.map((item) => (
                             <Link
                               key={item.href}
