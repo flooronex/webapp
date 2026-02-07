@@ -23,6 +23,11 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: "https",
+        hostname: "gcoxlhjaijczrxnmynfr.supabase.co",
+        pathname: "/storage/v1/object/public/**",
+      },
     ],
   },
   // Update experimental settings to disable scroll restoration
