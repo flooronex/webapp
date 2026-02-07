@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { supabase } from "@/lib/supabase/client";
+import supabase from "@/lib/supabase/client";
 
 type Company = {
   id: string;
