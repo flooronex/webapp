@@ -1,9 +1,9 @@
-import { type ClassValue, clsx } from "clsx";
-import { twMerge } from "tailwind-merge";
+import { clsx, type ClassValue } from "clsx";
 
 /**
- * Combines multiple class values into a single string using clsx and tailwind-merge
+ * Simple className merge helper.
+ * Fără tailwind-merge, fără shadcn.
  */
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs));
+  return clsx(inputs);
 }

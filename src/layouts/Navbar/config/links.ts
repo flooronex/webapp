@@ -15,8 +15,8 @@ export interface NavLinkConfig {
  */
 export const navLinks: NavLinkConfig[] = [
     { translationKey: "features", href: "/#features" },
+    { translationKey: "explore", href: "/providers-test" },
     { translationKey: "contact", href: "/contact" },
-    { translationKey: "pricing", href: "/pricing" },
     { translationKey: "about", href: "/about" },
     //{ translationKey: "requestQuote", href: "/request-a-quote" },
 ];

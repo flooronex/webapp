@@ -46,7 +46,7 @@ export function NavLinks({
             key={link.label}
             onMouseEnter={(e) => onLinkHover(e, index)}
             className={cn(
-              "relative z-10 px-5 whitespace-nowrap text-center py-2 rounded-full font-medium",
+              "relative z-10 px-3 whitespace-nowrap text-center py-2 rounded-full font-medium",
               activeLink === index ? "text-(--foreground)" : ""
             )}
           >

@@ -17,7 +17,7 @@ export default function Home() {
       <Features />
       <TemplatesShowcase />
       <ResponsiveTemplates />
-      <Pricing />
+      {/* <Pricing /> */}
       <Faq />
       <Footer />
     </div>

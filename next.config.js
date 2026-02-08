@@ -25,6 +25,12 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname: "katik.bitfain.ro",
+        port: '',
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
         hostname: "gcoxlhjaijczrxnmynfr.supabase.co",
         pathname: "/storage/v1/object/public/**",
       },
