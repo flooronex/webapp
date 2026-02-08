@@ -78,7 +78,8 @@ export default function WhyChooseUs() {
             variant="default"
             size="lg"
             className="w-full sm:w-auto max-w-xs"
-            onClick={() => router.push("/learn-more")}
+            onClick={() => router.push("/providers-test")}
+         
           >
             Find Installers
           </Button>

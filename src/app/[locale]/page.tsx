@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="min-h-screen width-full">
       <Hero />
-      <DashboardMockup />
+      {/* <DashboardMockup /> */}
       <WhyChooseUs />
       <Features />
       <TemplatesShowcase />
